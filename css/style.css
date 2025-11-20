@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
 body {
   background-color: #041122;
   color: #7FDA89;
@@ -36,7 +38,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 2px;
-  color: #7FDA89; 
+  color: #E6F99D; 
   line-height: 1.2em;
 }
 
@@ -78,7 +80,7 @@ body {
 #vis .sub-title {
   font-size:80px;
   text-anchor: middle;
-  fill: #7FDA89; 
+  fill: #E6F99D; 
 }
 
 .axis path,
