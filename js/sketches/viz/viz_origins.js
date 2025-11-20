@@ -1,5 +1,5 @@
 (function () {
-    window.Origins = {
+    window.VizOrigins = {
         draw: function (p, manager, ai, progress) {
             var cols = manager.width || 800;
             var rows = manager.height || 600;
