@@ -37,7 +37,12 @@
                 return;
             }
 
-            if (ai === 7) {
+            if (ai === 7 || ai === 8) {
+                window.VizC.draw(p, manager, ai, progress);
+                return;
+            }
+
+            if (ai === 9) {
                 window.VizBar.draw(p, manager, ai, progress);
                 return;
             }
