@@ -31,8 +31,9 @@
                 return;
             }
 
+
             if (ai >= 5 && ai < 7) {
-                window.VizScatter.draw(p, manager, ai, progress);
+                window.Origins.draw(p, manager, ai, progress);
                 return;
             }
 
