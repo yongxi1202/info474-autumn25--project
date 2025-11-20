@@ -20,32 +20,23 @@
 
         draw: function (p, manager, ai, progress) {
             try { console.log('Renderer: delegating draw, ai=', ai); } catch (e) { }
+            p.clear();
 
-            if (ai === 0 || ai === 1) {
-                window.VizTitle.draw(p, manager, ai, progress);
+            if (ai === 1 || ai === 2) {
+                window.VizTravel.draw(p, manager, ai, progress);
                 return;
             }
 
-            if (ai >= 2 && ai <= 4) {
-                window.VizTravel.draw(p, manager, ai - 2, progress);
+            if (ai === 3) {
+                window.VizOrigins.draw(p, manager, ai, progress);
                 return;
             }
 
-
-            if (ai >= 5 && ai < 7) {
-                window.Origins.draw(p, manager, ai, progress);
+            if (ai >= 4) {
+                window.VizAirlines.draw(p, manager, ai, progress);
                 return;
             }
-
-            if (ai === 7 || ai === 8) {
-                window.VizC.draw(p, manager, ai, progress);
-                return;
-            }
-
-            if (ai === 9) {
-                window.VizBar.draw(p, manager, ai, progress);
-                return;
-            }
+            
         }
     };
 })();
