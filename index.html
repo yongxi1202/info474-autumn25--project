@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Chasing the Emerald - Seattle Air Travel</title>
+  <title>Scrolling Sections</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
@@ -12,68 +12,63 @@
     <div id='graphic'>
       <div id='sections'>
         <section class="step" data-active-index="0">
-          <div class="title">INFO 474 Final Project</div>
-          Chasing the Emerald: <br /><br />
-          <b>The Hidden Rhythms of Seattle Air Travel</b>
+          <div class="title-wrapper">
+            <div class="title-left">
+              <span class="title-top">Chasing the</span>
+              <span class="title-bottom">Emerald</span>
+            </div>
+            <span class="title-sub">The Hidden Rhythms of Seattle Air Travel</span>
+          </div>
+          <p>
+            Seattle draws millions of visitors each year, but how do most people get there, and when is
+            the best time to go? This interactive article explores travel patterns to the Emerald City, 
+            beginning with a comparison of different transportation modes. We’ll uncover why flights dominate 
+            as the most popular way to reach Seattle, highlight the top airlines chosen by travelers, and 
+            reveal the best times of year to plan your trip based on real travel data.
+          </p>
         </section>
         <section class="step" data-active-index="1">
-          <div class="title">Introduction</div>
-          Five years of flight data reveal patterns in Seattle's air travel. 
-          From historic journeys to modern connections, discover what makes 
-          Seattle's aviation hub unique.
+          <div class="title">How We Traveled Then vs. Now</div>
+          In the 1800s, traveling from New York City to Seattle meant weeks at sea. People boarded ships that 
+          sailed down the Atlantic, around Cape Horn at the tip of South America, and finally up the Pacific Coast. 
+          By the early 1900s, the completion of the railroads transformed the journey. 
+          What once took months by boat now took about a week by train, shifting long-distance travel from ocean routes 
+          to cross-country rail networks.
         </section>
         <section class="step" data-active-index="2">
-          <div class="title">The Evolution of Travel</div>
-          From months-long voyages by ship in the 1800s to hours-long flights today, 
-          transportation to Seattle has transformed dramatically.
+          <div class="title">From Boats to Planes</div>
+          Today, in the 2000s, the dominant travel mode is air. A trip that once demanded months of hardship or days of rail 
+          travel can now be completed in a few hours by plane.
         </section>
         <section class="step" data-active-index="3">
-          <div class="title">Modern Speed</div>
-          Today, what once took months now takes mere hours. Aviation has compressed 
-          time and distance in ways our ancestors could barely imagine.
+          <div class="title">Where Seattle’s Travelers Come From?</div>
+          And as air travel became the primary mode of transportation, Seattle grew into a major hub in the Pacific Northwest. 
+          This was shaped not only by who traveled from the city, but also by who traveled to it. Today, the most popular origins 
+          for flights into Seattle reflect a mix of regional ties, economic connections, and long-standing mobility patterns. 
+          Each origin tells its own story: hover over the cities to learn more about why they are key sources of travelers to Seattle.
         </section>
         <section class="step" data-active-index="4">
-          <div class="title">The Jet Age</div>
-          The modern traveler experiences a journey that would have seemed like 
-          magic just a century ago.
+          <div class="title">Be creative</div>
+          Surprise your readers with interesting interactions, animations, or data visualizations.
         </section>
         <section class="step" data-active-index="5">
-          <div class="title">Top 10 Flight Origins to Seattle</div>
-          Seattle-Tacoma International Airport connects the Emerald City to destinations 
-          across the country. These are the busiest routes bringing travelers to the Pacific Northwest.
-        </section>
-        <section class="step" data-active-index="6">
-          <div class="title">Regional Dominance</div>
-          Portland, Anchorage, and Los Angeles lead the pack. Hover over each city to see 
-          detailed flight statistics and the airlines that connect them to Seattle.
-        </section>
-        <section class="step" data-active-index="7">
-          <div class="title">The Competition Heats Up</div>
-          Not all airlines are equal at Sea-Tac. Over the past decade, four major carriers 
-          have been locked in an intense race for Seattle's skies.
-          <br /><br />
-          <b>Alaska Airlines</b> exploded from 12 to 125 flights—a staggering 941% growth. 
-          <b>Delta</b> and <b>United</b> both crossed the century mark, while <b>Southwest</b> 
-          steadily expanded its presence.
-          <br /><br />
-          <b>Interactive:</b> <span style="color: #7FDA89;">Hover over any line</span> to see 
-          yearly details. <span style="color: #7FDA89;">Click a line</span> to highlight it and 
-          see its total growth percentage. The battle for Seattle is far from over.
-        </section>
-        <section class="step" data-active-index="8">
-          <div class="title">What This Means for Travelers</div>
-          More flights mean more choices—but also more complexity. The airline with the most 
-          routes isn't always the one with the best prices, punctuality, or service.
-          <br /><br />
-          Understanding these patterns helps you make smarter travel decisions. When booking 
-          your next flight to Seattle, remember: the numbers tell only part of the story.
-        </section>
-        <section class="step" data-active-index="9">
-          <div class="title">Best of Luck in the Project!</div>
-          You are now ready to explore all aspects of Seattle air travel. Safe travels!
+          <div class="title">Same visualization multiple sections</div>
+          Some visualizations may be relevant to multiple sections. You can reuse the same visualization
+          across different sections to reinforce key points. Or build on the previous visualization to just add on.
         </section>
         <div id="extra-space">
         </div>
+        <section class="step" data-active-index="6">
+          <div class="title">Examples</div>
+          There is two examples in this code. One is a grid of circles that changes color
+          based on the section index. The other is a scatter plot and bar chart that
+          shows random data points. You can modify or replace these examples with your own visualizations.
+          Make sure you read both source files to understand how they work.
+        </section>
+        <section class="step" data-active-index="7">
+          <div class="title">Best of Luck in the Project!</div>
+          You are now ready to start building your interactive article. Good luck!
+        </section>
       </div>
       <div id='vis' class='vis-hidden'>
       </div>
@@ -103,10 +98,9 @@
   <script src="js/sketches/viz/viz_title.js"></script>
   <script src="js/sketches/viz/viz_scatter.js"></script>
   <script src="js/sketches/viz/viz_bar.js"></script>
+  <script src="js/sketches/sketch_renderer.js"></script>
   <script src="js/sketches/viz/viz_travel.js"></script>
   <script src="js/sketches/viz/viz_origins.js"></script>
-  <script src="js/sketches/viz/viz_c.js"></script> 
-  <script src="js/sketches/sketch_renderer.js"></script>
 
 
 </body>
