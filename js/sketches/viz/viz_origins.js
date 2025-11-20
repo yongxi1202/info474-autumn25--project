@@ -156,9 +156,7 @@
             }
 
             p.image(manager._mapImage, offsetX, offsetY, cols, rows);
-            p.fill(15, 23, 42, 120);
-            p.noStroke();
-            p.rect(offsetX, offsetY, cols, rows);
+      
 
             var data = manager._routesData;
             manager._animOffset = (manager._animOffset + 0.01) % 1;
