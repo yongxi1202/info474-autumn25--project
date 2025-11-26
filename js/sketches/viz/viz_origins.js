@@ -157,6 +157,19 @@
 
             p.image(manager._mapImage, offsetX, offsetY, cols, rows);
       
+            //add title
+            p.fill(15, 23, 42, 180);
+            p.noStroke();
+            p.rect(offsetX, offsetY, cols, 70, 0);
+            
+            p.textAlign(p.CENTER, p.CENTER);
+            p.textSize(24);
+            p.fill(255);
+            p.text("Popular Routes to Seattle", offsetX + cols / 2, offsetY + 30);
+            
+            p.textSize(12);
+            p.fill(147, 197, 253);
+            p.text("Hover over cities for more details", offsetX + cols / 2, offsetY + 50);
 
             var data = manager._routesData;
             manager._animOffset = (manager._animOffset + 0.01) % 1;
@@ -278,8 +291,8 @@
                 
                 var tooltipX = mx + 15;
                 var tooltipY = my - 85;
-                var tooltipW = 220;
-                var tooltipH = 100;
+                var tooltipW = 265;
+                var tooltipH = 180;
 
                 if (tooltipX + tooltipW > offsetX + cols) {
                     tooltipX = mx - tooltipW - 15;
@@ -290,35 +303,39 @@
 
                 p.fill(30, 41, 59, 250);
                 p.stroke(96, 165, 250);
-                p.strokeWeight(2);
+                p.strokeWeight(2.5);
                 p.rect(tooltipX, tooltipY + 5, tooltipW, tooltipH, 5);
 
                 p.noStroke();
                 p.textAlign(p.LEFT);
-                p.textSize(14);
+                p.textSize(18);
                 p.fill(96, 165, 250);
                 p.text(route.city + " → Seattle", tooltipX + 10, tooltipY + 20);
                 
-                p.textSize(10);
+                p.textSize(14);
                 p.fill(147, 197, 253);
-                p.text("Total Flights: " + route.totalFlights, tooltipX + 10, tooltipY + 37);
-                p.text("Avg Monthly Flights: " + route.avgFlights, tooltipX + 10, tooltipY + 50);
+                p.text("Total Flights: " + route.totalFlights + "*", tooltipX + 10, tooltipY + 40);
+                p.text("Avg Monthly Flights: " + route.avgFlights, tooltipX + 10, tooltipY + 58);
 
+                p.textSize(14);
                 p.fill(203, 213, 225);
-                p.text("Popular Airlines:", tooltipX + 10, tooltipY + 65);
+                p.text("Top Airlines:", tooltipX + 10, tooltipY + 78);
                 
-                var airlineY = tooltipY + 77;
+                var airlineY = tooltipY + 95;
                 for (var a = 0; a < Math.min(3, route.airlines.length); a++) {
                     var airline = route.airlines[a];
-                    p.textSize(9);
+                    p.textSize(13);
                     p.fill(148, 163, 184);
                     p.text("• " + airline.name, tooltipX + 15, airlineY);
                     p.textAlign(p.RIGHT);
                     p.fill(96, 165, 250);
-                    p.text(airline.count, tooltipX + tooltipW - 15, airlineY);
+                    p.text(airline.count + "*", tooltipX + tooltipW - 15, airlineY);
                     p.textAlign(p.LEFT);
-                    airlineY += 12;
+                    airlineY += 15;
                 }
+
+                p.text("*The number represents the count of flights \n operated by the airline from 2022 to 2025.", 
+                    tooltipX + 10, tooltipY + 160);
             }
         },
     };
