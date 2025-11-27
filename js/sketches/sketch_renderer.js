@@ -46,6 +46,11 @@
                 window.VizPricing.draw(p, manager, ai, progress);
                 return;
             }
+
+            if (ai === 10 || ai === 11) {
+                window.VizDelayCalendar.draw(p, manager, ai, progress);
+                return;
+            }
             
         }
     };
