@@ -40,8 +40,11 @@
             if (ai === 6 || ai === 7) {
                 window.VizC.draw(p, manager, ai, progress);
                 return;
+            }
 
-            
+            if (ai === 8 || ai === 9) {
+                window.VizPricing.draw(p, manager, ai, progress);
+                return;
             }
             
         }

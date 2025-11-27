@@ -68,7 +68,7 @@
             p.textSize(18);
             p.fill(127, 218, 137); 
             p.noStroke();
-            p.text('Flight Volume Growth (2010-2019)', offsetX - 50, offsetY - 45);
+            p.text('Flight Volume Growth', offsetX - 50, offsetY - 45);
             
             p.textSize(12);
             p.fill(150, 180, 150);
