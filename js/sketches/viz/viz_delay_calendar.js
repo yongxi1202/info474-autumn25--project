@@ -49,6 +49,7 @@
       p.textSize(32);
       p.textAlign(p.CENTER);
       p.textFont('Unbounded');
+      p.fill(200, 220, 228);
       p.text('When Should You Fly to Seattle?', p.width/2, 42);
       
       p.textFont('Azeret Mono');
