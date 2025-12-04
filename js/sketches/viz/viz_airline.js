@@ -63,7 +63,7 @@
 
             for (var i = 0; i < airlines.length; i++) {
                 var y = top + i * rowH + rowH / 2;
-                var logoSize = Math.min(rowH * 0.8, 80);
+                var logoSize = Math.min(rowH, 80);
 
                 // Draw logo 
                 if (logos[airlines[i]] && logos[airlines[i]].width > 0) {
