@@ -1,4 +1,3 @@
-// viz_travel.js
 
 (function () {
     window.VizTravel = {
@@ -6,13 +5,27 @@
             p.push();
             
             var left = 200;
-            var top = 80;
+            var top = 130;
             var barWidth = (manager.width || 600) - 160;
             var barHeight = 6;
             var circleSize = 14;
             
+            p.textAlign(p.CENTER);
+            p.textFont('Unbounded');
+            p.fill(200, 220, 228);
+            p.textSize(26);
+            p.textStyle(p.BOLD);
+            p.text('How We Traveled Then vs. Now', left + barWidth / 2, 40);
+            
+            p.textFont('Azeret Mono');
+            p.fill(200, 220, 228);
+            p.textSize(13);
+            p.textStyle(p.NORMAL);
+            p.text('NYC to Seattle journey time across three centuries', left + barWidth / 2, 62);
+            
+
             var eras = [
-                { label: '1800s', time: '4-6 months', iconPos: 0.15, icon: '🚢', color: [180, 180, 180], speed: 0.000005 },  // 轮船更慢了（减半）
+                { label: '1800s', time: '4-6 months', iconPos: 0.15, icon: '🚢', color: [180, 180, 180], speed: 0.000005 },
                 { label: '1900s', time: '3-4 days', iconPos: 0.4, icon: '🚂', color: [160, 120, 100], speed: 0.0002 },
                 { label: 'Today', time: '5-6 hours', iconPos: 0.75, icon: '✈️', color: [100, 180, 230], speed: 0.003 }
             ];
@@ -61,6 +74,14 @@
                 p.textAlign(p.CENTER, p.BOTTOM);
                 p.text(era.time, iconX, y - 45);
             });
+            
+            var bottomY = top + (eras.length - 1) * 130 + barHeight + 40;
+            p.textSize(9);
+            p.fill(200, 220, 228, 160); 
+            p.textAlign(p.CENTER);
+            p.textFont('Azeret Mono');
+            p.text('Historical data: U.S. Census Bureau (2023), HISTORY.com, CEPR VoxEU (2004) | Modern data: BTS (2024)', 
+                   left + barWidth / 2, bottomY);
             
             p.pop();
         }
