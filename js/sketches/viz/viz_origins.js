@@ -152,7 +152,7 @@
                 manager._selectedRoute = -1;
                 manager._animOffset = 0;
 
-                manager._mapImage = p.loadImage('/assets/map.png');
+                manager._mapImage = p.loadImage('assets/map.png');
             }
 
             p.image(manager._mapImage, offsetX, offsetY, cols, rows);
