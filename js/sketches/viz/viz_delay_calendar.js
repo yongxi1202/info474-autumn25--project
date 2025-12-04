@@ -2,6 +2,7 @@
   window.VizDelayCalendar = {
     
     monthlyData: {},
+    realData: null, 
     loaded: false,
     hoveredDay: null,
     bestDay: null,
@@ -25,16 +26,24 @@
     init: function() {
       if (this.loaded) return;
       
-      this.generateDataFromResearch();
+      this.loadRealData();
       this.loaded = true;
-      console.log('✅ VizDelayCalendar initialized (vertical layout)');
+      console.log('✅ VizDelayCalendar initialized with REAL DATA');
     },
     
     draw: function(p, manager, ai, progress) {
       if (!this.loaded) this.init();
       
-      p.background(this.BG_COLOR[0], this.BG_COLOR[1], this.BG_COLOR[2]);
+      if (!this.realData) {
+        p.background(this.BG_COLOR[0], this.BG_COLOR[1], this.BG_COLOR[2]);
+        p.fill(this.PRIMARY_GREEN[0], this.PRIMARY_GREEN[1], this.PRIMARY_GREEN[2]);
+        p.textSize(24);
+        p.textAlign(p.CENTER, p.CENTER);
+        p.text('Loading real flight data...', p.width/2, p.height/2);
+        return;
+      }
       
+      p.background(this.BG_COLOR[0], this.BG_COLOR[1], this.BG_COLOR[2]);
       
       p.fill(this.PRIMARY_GREEN[0], this.PRIMARY_GREEN[1], this.PRIMARY_GREEN[2]);
       p.textSize(32);
@@ -45,160 +54,158 @@
       p.textFont('Azeret Mono');
       p.textSize(15);
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2]);
-      p.text('Flight Delay & Cancellation Calendar', p.width/2, 68);
+      p.text('Flight Delay & Cancellation Calendar — Real 2024 Data', p.width/2, 68);
       
       this.drawCalendar(p);
       this.drawLegend(p);
     },
     
-    
-    generateDataFromResearch: function() {
+    loadRealData: function() {
       const self = this;
       
-      
-      const monthlyBaseRates = {
-        1: 18.5, 2: 17.2, 3: 16.8, 4: 15.9, 5: 16.5, 6: 19.8,
-        7: 20.2, 8: 19.1, 9: 14.7, 10: 14.8, 11: 17.5, 12: 21.0
-      };
-      
-      
-      const dayOfWeekMultiplier = {
-        0: 1.18, 1: 0.96, 2: 0.92, 3: 0.93, 4: 0.97, 5: 1.14, 6: 1.06
-      };
-      
+      fetch('data/seattle_delays_2024.json')
+        .then(response => response.json())
+        .then(data => {
+          console.log('✅ Loaded', data.length, 'days of real data');
+          self.realData = data;
+          self.processRealData(data);
+        })
+        .catch(error => {
+          console.error('❌ Error loading data:', error);
+          console.log('💡 Falling back to demo data');
+          self.generateDemoData();
+        });
+    },
+    
+    processRealData: function(data) {
+      const self = this;
       
       const holidays = {
-        '01-01': { name: 'New Year\'s Day', multiplier: 1.40 },
-        '01-15': { name: 'MLK Day', multiplier: 1.18 },
-        '02-19': { name: 'Presidents Day', multiplier: 1.17 },
-        '05-27': { name: 'Memorial Day', multiplier: 1.28 },
-        '07-04': { name: 'Independence Day', multiplier: 1.32 },
-        '09-02': { name: 'Labor Day', multiplier: 1.22 },
-        '11-27': { name: 'Thanksgiving Eve', multiplier: 1.50 },
-        '11-28': { name: 'Thanksgiving', multiplier: 1.48 },
-        '11-29': { name: 'Black Friday', multiplier: 1.38 },
-        '12-01': { name: 'Thanksgiving Return', multiplier: 1.42 },
-        '12-21': { name: 'Pre-Christmas Rush', multiplier: 1.52 },
-        '12-22': { name: 'Christmas Peak', multiplier: 1.58 },
-        '12-23': { name: 'Christmas Eve Eve', multiplier: 1.55 },
-        '12-24': { name: 'Christmas Eve', multiplier: 1.35 },
-        '12-25': { name: 'Christmas Day', multiplier: 1.60 },
-        '12-26': { name: 'Post-Christmas', multiplier: 1.65 },
-        '12-31': { name: 'New Year\'s Eve', multiplier: 1.45 }
+        '01-01': 'New Year\'s Day',
+        '01-15': 'MLK Day',
+        '02-19': 'Presidents Day',
+        '05-27': 'Memorial Day',
+        '07-04': 'Independence Day',
+        '09-02': 'Labor Day',
+        '11-27': 'Thanksgiving Eve',
+        '11-28': 'Thanksgiving',
+        '11-29': 'Black Friday',
+        '12-01': 'Thanksgiving Return',
+        '12-21': 'Pre-Christmas Rush',
+        '12-22': 'Christmas Peak',
+        '12-23': 'Christmas Eve Eve',
+        '12-24': 'Christmas Eve',
+        '12-25': 'Christmas Day',
+        '12-26': 'Post-Christmas',
+        '12-31': 'New Year\'s Eve'
       };
-      
-      
-      const winterStorms = {
-        '01-11': 1.45, '01-12': 1.55, '01-13': 1.68, '01-14': 1.50,
-        '02-23': 1.42, '02-24': 1.58,
-        '12-19': 1.48, '12-20': 1.62, '12-21': 1.75, '12-22': 1.70
-      };
-      
-      
-      const shutdownDates = {
-        '11-04': 1.25, '11-05': 1.28, '11-06': 1.30, '11-07': 1.32,
-        '11-08': 1.35, '11-09': 1.33, '11-10': 1.30, '11-11': 1.27, '11-12': 1.20
-      };
-      
-      
-      const pipelineImpact = {
-        '11-24': 1.22, '11-25': 1.18, '11-26': 1.20
-      };
-      
       
       const cherryBlossomDates = [
-        '03-25', '03-26', '03-27', '03-28', '03-29', '03-30', '03-31',  
-        '04-01', '04-02', '04-03', '04-04', '04-05', '04-06', '04-07',  
-        '04-08', '04-09', '04-10', '04-11', '04-12', '04-13', '04-14' 
+        '03-25', '03-26', '03-27', '03-28', '03-29', '03-30', '03-31',
+        '04-01', '04-02', '04-03', '04-04', '04-05', '04-06', '04-07',
+        '04-08', '04-09', '04-10', '04-11', '04-12', '04-13', '04-14'
       ];
       
       let minDelay = Infinity;
       let maxDelay = -Infinity;
       let allDays = [];
       
+      data.forEach(dayRecord => {
+        let monthStr = String(dayRecord.month).padStart(2, '0');
+        
+        if (!self.monthlyData[monthStr]) {
+          self.monthlyData[monthStr] = [];
+        }
+        
+        let [year, month, day] = dayRecord.date.split('-');
+        let dateKey = `${month}-${day}`;
+        
+        let dayData = {
+          month: dayRecord.month,
+          day: parseInt(day),
+          delayRate: dayRecord['delay_rate_%'],
+          cancelRate: dayRecord['cancel_rate_%'],
+          avgDelay: dayRecord.avg_delay_min,
+          numFlights: dayRecord.num_flights,
+          dayName: dayRecord.day_of_week.substring(0, 3), 
+          holiday: holidays[dateKey] || null,
+          cherryBlossom: cherryBlossomDates.includes(dateKey),
+          dateString: dateKey,
+          storm: dayRecord['cancel_rate_%'] > 5.0 ? dayRecord['cancel_rate_%'] : null
+        };
+        
+        self.monthlyData[monthStr].push(dayData);
+        allDays.push(dayData);
+        
+        if (dayData.delayRate < minDelay) {
+          minDelay = dayData.delayRate;
+          self.bestDay = dayData;
+        }
+        if (dayData.delayRate > maxDelay) {
+          maxDelay = dayData.delayRate;
+          self.worstDay = dayData;
+        }
+      });
+      
+      allDays.sort((a, b) => a.delayRate - b.delayRate);
+      self.top5Best = allDays.slice(0, 5);
+      self.top5Worst = allDays.slice(-5).reverse();
+      
+      console.log('📊 Best day:', self.bestDay.dateString, '-', self.bestDay.delayRate.toFixed(1) + '%');
+      console.log('📊 Worst day:', self.worstDay.dateString, '-', self.worstDay.delayRate.toFixed(1) + '%');
+    },
+    
+    generateDemoData: function() {
+      const self = this;
+      
+      const monthlyAverages = {
+        1: 20.04, 2: 11.39, 3: 15.98, 4: 15.72, 5: 21.32, 6: 25.65,
+        7: 23.72, 8: 22.72, 9: 17.11, 10: 12.26, 11: 12.49, 12: 16.84
+      };
       
       for (let month = 1; month <= 12; month++) {
         let monthStr = String(month).padStart(2, '0');
         self.monthlyData[monthStr] = [];
         
         let daysInMonth = new Date(2024, month, 0).getDate();
+        let baseRate = monthlyAverages[month];
         
         for (let day = 1; day <= daysInMonth; day++) {
           let date = new Date(2024, month - 1, day);
           let dayOfWeek = date.getDay();
-          let dayStr = String(day).padStart(2, '0');
-          let dateKey = `${monthStr}-${dayStr}`;
-          
-          
-          let baseRate = monthlyBaseRates[month];
-          let delayRate = baseRate * dayOfWeekMultiplier[dayOfWeek];
-          
-          if (holidays[dateKey]) delayRate *= holidays[dateKey].multiplier;
-          if (winterStorms[dateKey]) delayRate *= winterStorms[dateKey];
-          if (shutdownDates[dateKey]) delayRate *= shutdownDates[dateKey];
-          if (pipelineImpact[dateKey]) delayRate *= pipelineImpact[dateKey];
-          
-          delayRate *= (0.92 + Math.random() * 0.16);
-          
-          let cancelRate = delayRate * (0.015 + Math.random() * 0.025);
-          if (winterStorms[dateKey] && winterStorms[dateKey] > 1.5) {
-            cancelRate = delayRate * 0.12;
-          }
-          
-          let avgDelay = (delayRate / 17.0) * 55 + (Math.random() - 0.5) * 12;
-          if (month === 12) avgDelay *= 1.06;
-          
-          let numFlights = 1224 + Math.floor((Math.random() - 0.5) * 150);
-          if (dayOfWeek === 0 || dayOfWeek === 6) numFlights *= 0.94;
           
           let dayData = {
             month: month,
             day: day,
-            delayRate: Math.min(delayRate, 75),
-            cancelRate: Math.min(cancelRate, 12),
-            avgDelay: Math.max(avgDelay, -3),
-            numFlights: Math.floor(numFlights),
+            delayRate: baseRate + (Math.random() - 0.5) * 8,
+            cancelRate: (baseRate / 20) + (Math.random() - 0.5) * 0.5,
+            avgDelay: (baseRate / 17.0) * 55,
+            numFlights: 400,
             dayName: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][dayOfWeek],
-            holiday: holidays[dateKey] || null,
-            storm: winterStorms[dateKey] || null,
-            shutdown: shutdownDates[dateKey] || null,
-            pipeline: pipelineImpact[dateKey] || null,
-            cherryBlossom: cherryBlossomDates.includes(dateKey),
-            dateString: dateKey
+            holiday: null,
+            cherryBlossom: false,
+            storm: null,
+            dateString: `${monthStr}-${String(day).padStart(2, '0')}`
           };
           
           self.monthlyData[monthStr].push(dayData);
-          allDays.push(dayData);
-          
-          if (dayData.delayRate < minDelay) {
-            minDelay = dayData.delayRate;
-            self.bestDay = dayData;
-          }
-          if (dayData.delayRate > maxDelay) {
-            maxDelay = dayData.delayRate;
-            self.worstDay = dayData;
-          }
         }
       }
       
-      
-      allDays.sort((a, b) => a.delayRate - b.delayRate);
-      self.top5Best = allDays.slice(0, 5);
-      self.top5Worst = allDays.slice(-5).reverse();
+      self.realData = { demo: true };
+      console.log('⚠️  Using demo data');
     },
-    
     
     drawCalendar: function(p) {
       const self = this;
       const months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
                       'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
       
-      const startX = this.MARGIN + 100;   
-      const startY = 102;   
-      const rowHeight = 43;   
+      const startX = this.MARGIN + 100;
+      const startY = 102;
+      const rowHeight = 43;
       
       this.hoveredDay = null;
-      
       
       for (let monthIdx = 0; monthIdx < 12; monthIdx++) {
         let month = monthIdx + 1;
@@ -207,7 +214,6 @@
         let x = startX;
         let y = startY + monthIdx * rowHeight;
         
-         
         p.fill(this.PRIMARY_GREEN[0], this.PRIMARY_GREEN[1], this.PRIMARY_GREEN[2]);
         p.textSize(13);
         p.textAlign(p.RIGHT, p.CENTER);
@@ -221,17 +227,15 @@
             let cx = x + d * this.CIRCLE_SPACING;
             let cy = y;
             
-             
-            let sizeBoost = p.map(dayData.cancelRate, 0, 12, 0, 5);
+            let sizeBoost = p.map(dayData.cancelRate, 0, 5, 0, 4);
+            sizeBoost = Math.min(sizeBoost, 4);
             let circleSize = this.CIRCLE_SIZE + sizeBoost;
             
-             
             let color = this.getColorForDelay(dayData.delayRate);
             p.fill(color[0], color[1], color[2]);
             p.noStroke();
             p.circle(cx, cy, circleSize);
             
-             
             if (dayData.holiday) {
               p.fill(255, 200, 0);
               p.textSize(8);
@@ -239,25 +243,21 @@
               p.text('★', cx, cy - circleSize/2 - 5);
             }
             
-             
             if (dayData.cherryBlossom) {
-              p.fill(255, 182, 193);  
+              p.fill(255, 182, 193);
               p.textSize(9);
               p.textAlign(p.CENTER, p.CENTER);
               let yOffset = dayData.holiday ? (cy + circleSize/2 + 6) : (cy - circleSize/2 - 5);
               p.text('✿', cx, yOffset);
             }
             
-            
-            if (dayData.storm && dayData.storm > 1.5) {
+            if (dayData.storm) {
               p.fill(244, 67, 54);
               p.textSize(9);
-               
               let yOffset = cy + circleSize/2 + 6;
               if (dayData.cherryBlossom && !dayData.holiday) yOffset += 8;
               p.text('⚠', cx, yOffset);
             }
-            
             
             let dist = p.dist(p.mouseX, p.mouseY, cx, cy);
             if (dist < circleSize/2 + 6) {
@@ -280,16 +280,15 @@
       }
     },
     
-     getColorForDelay: function(delayRate) {
+    getColorForDelay: function(delayRate) {
       if (delayRate < 15) return this.EXCELLENT;
       if (delayRate < 20) return this.GOOD;
       if (delayRate < 28) return this.FAIR;
       return this.POOR;
     },
     
-     
     drawLegend: function(p) {
-      const y = 618;  
+      const y = 618;
       
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 220);
       p.textSize(11);
@@ -342,12 +341,12 @@
       p.text('⚠', this.MARGIN + 330, symbolY);
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 200);
       p.textSize(10);
-      p.text('Storm Risk', this.MARGIN + 350, symbolY);
+      p.text('High Cancellation', this.MARGIN + 350, symbolY);
       
       p.textSize(9);
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 170);
       p.textAlign(p.LEFT);
-      p.text('Circle size indicates cancellation rate  |  Hover for details  |  2024 data: Flight Forecaster, Airportia, BTS', 
+      p.text('Circle size = cancellation rate  |  Hover for details  |  Real 2024 data from BTS via Kaggle', 
              this.MARGIN, symbolY + 22);
     },
     
@@ -378,14 +377,14 @@
       
       p.textSize(15);
       let title = `${monthNames[day.month - 1]} ${day.day}, 2024 (${day.dayName})`;
-      if (day.holiday) title += ` — ${day.holiday.name}`;
+      if (day.holiday) title += ` — ${day.holiday}`;
       p.text(title, tx - 175, ty - 45);
       
       p.fill(255, 255, 255);
       p.textSize(13);
       p.text(`Delay Rate: ${day.delayRate.toFixed(1)}%  |  Cancel Rate: ${day.cancelRate.toFixed(2)}%`, 
              tx - 175, ty - 20);
-      p.text(`Avg Delay: ${day.avgDelay.toFixed(0)} min  |  ~${day.numFlights} flights`, 
+      p.text(`Avg Delay: ${day.avgDelay.toFixed(0)} min  |  ${day.numFlights} flights`, 
              tx - 175, ty + 0);
       
       p.textSize(12);
@@ -414,19 +413,9 @@
         warningY += 16;
       }
       
-      if (day.storm && day.storm > 1.5) {
+      if (day.storm) {
         p.fill(244, 67, 54);
-        p.text('⛈ Winter storm risk — delays likely', tx - 175, warningY);
-        warningY += 16;
-      }
-      if (day.shutdown) {
-        p.fill(255, 152, 0);
-        p.text('⚙ Govt shutdown impact period', tx - 175, warningY);
-        warningY += 16;
-      }
-      if (day.pipeline) {
-        p.fill(255, 152, 0);
-        p.text('⛽ Fuel supply issue — possible refueling stops', tx - 175, warningY);
+        p.text(`⚠ High cancellation rate (${day.cancelRate.toFixed(1)}%) — weather likely`, tx - 175, warningY);
       }
     }
   };

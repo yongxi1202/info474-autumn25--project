@@ -1,0 +1,110 @@
+[
+  {
+    "year": "2024",
+    "month": 1,
+    "delay_rate_%": 20.04,
+    "cancel_rate_%": 8.598,
+    "avg_delay_min": 6.6,
+    "num_flights": 11757,
+    "month_name": "Jan"
+  },
+  {
+    "year": "2024",
+    "month": 2,
+    "delay_rate_%": 11.39,
+    "cancel_rate_%": 0.522,
+    "avg_delay_min": -6.3,
+    "num_flights": 11097,
+    "month_name": "Feb"
+  },
+  {
+    "year": "2024",
+    "month": 3,
+    "delay_rate_%": 15.98,
+    "cancel_rate_%": 0.574,
+    "avg_delay_min": 0.5,
+    "num_flights": 12627,
+    "month_name": "Mar"
+  },
+  {
+    "year": "2024",
+    "month": 4,
+    "delay_rate_%": 15.72,
+    "cancel_rate_%": 0.35,
+    "avg_delay_min": 0.4,
+    "num_flights": 12918,
+    "month_name": "Apr"
+  },
+  {
+    "year": "2024",
+    "month": 5,
+    "delay_rate_%": 21.32,
+    "cancel_rate_%": 0.514,
+    "avg_delay_min": 6.5,
+    "num_flights": 14333,
+    "month_name": "May"
+  },
+  {
+    "year": "2024",
+    "month": 6,
+    "delay_rate_%": 25.65,
+    "cancel_rate_%": 0.605,
+    "avg_delay_min": 10.9,
+    "num_flights": 15186,
+    "month_name": "Jun"
+  },
+  {
+    "year": "2024",
+    "month": 7,
+    "delay_rate_%": 23.72,
+    "cancel_rate_%": 1.781,
+    "avg_delay_min": 10.1,
+    "num_flights": 16200,
+    "month_name": "Jul"
+  },
+  {
+    "year": "2024",
+    "month": 8,
+    "delay_rate_%": 22.72,
+    "cancel_rate_%": 0.855,
+    "avg_delay_min": 8.2,
+    "num_flights": 15983,
+    "month_name": "Aug"
+  },
+  {
+    "year": "2024",
+    "month": 9,
+    "delay_rate_%": 17.11,
+    "cancel_rate_%": 0.467,
+    "avg_delay_min": 1.1,
+    "num_flights": 14810,
+    "month_name": "Sep"
+  },
+  {
+    "year": "2024",
+    "month": 10,
+    "delay_rate_%": 12.26,
+    "cancel_rate_%": 0.507,
+    "avg_delay_min": -3.4,
+    "num_flights": 13756,
+    "month_name": "Oct"
+  },
+  {
+    "year": "2024",
+    "month": 11,
+    "delay_rate_%": 12.49,
+    "cancel_rate_%": 0.432,
+    "avg_delay_min": -4.3,
+    "num_flights": 12451,
+    "month_name": "Nov"
+  },
+  {
+    "year": "2024",
+    "month": 12,
+    "delay_rate_%": 16.84,
+    "cancel_rate_%": 0.645,
+    "avg_delay_min": 0.2,
+    "num_flights": 12589,
+    "month_name": "Dec"
+  }
+]

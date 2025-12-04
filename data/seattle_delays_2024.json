@@ -1,0 +1,3662 @@
+[
+  {
+    "date": "2024-01-01",
+    "day_of_week": "Monday",
+    "delay_rate_%": 9.77,
+    "cancel_rate_%": 0.771,
+    "avg_delay_min": -7.6,
+    "num_flights": 389,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-02",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 10.53,
+    "cancel_rate_%": 0.718,
+    "avg_delay_min": -6.5,
+    "num_flights": 418,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-03",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 16.14,
+    "cancel_rate_%": 0.241,
+    "avg_delay_min": 1.1,
+    "num_flights": 415,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-04",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 11.78,
+    "cancel_rate_%": 0.24,
+    "avg_delay_min": -3.2,
+    "num_flights": 416,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-05",
+    "day_of_week": "Friday",
+    "delay_rate_%": 17.92,
+    "cancel_rate_%": 0.242,
+    "avg_delay_min": -0.5,
+    "num_flights": 413,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-06",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 19.89,
+    "cancel_rate_%": 11.559,
+    "avg_delay_min": 8.0,
+    "num_flights": 372,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-07",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 27.85,
+    "cancel_rate_%": 10.896,
+    "avg_delay_min": 13.0,
+    "num_flights": 413,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-08",
+    "day_of_week": "Monday",
+    "delay_rate_%": 25.65,
+    "cancel_rate_%": 11.658,
+    "avg_delay_min": 15.2,
+    "num_flights": 386,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-09",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 27.32,
+    "cancel_rate_%": 8.169,
+    "avg_delay_min": 15.4,
+    "num_flights": 355,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-10",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 24.23,
+    "cancel_rate_%": 9.749,
+    "avg_delay_min": 7.7,
+    "num_flights": 359,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-11",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 28.86,
+    "cancel_rate_%": 13.924,
+    "avg_delay_min": 17.4,
+    "num_flights": 395,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-12",
+    "day_of_week": "Friday",
+    "delay_rate_%": 29.59,
+    "cancel_rate_%": 10.459,
+    "avg_delay_min": 19.5,
+    "num_flights": 392,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-13",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 33.65,
+    "cancel_rate_%": 12.893,
+    "avg_delay_min": 31.1,
+    "num_flights": 318,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-14",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 31.17,
+    "cancel_rate_%": 15.176,
+    "avg_delay_min": 21.6,
+    "num_flights": 369,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-15",
+    "day_of_week": "Monday",
+    "delay_rate_%": 29.32,
+    "cancel_rate_%": 16.291,
+    "avg_delay_min": 23.5,
+    "num_flights": 399,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-16",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 27.51,
+    "cancel_rate_%": 11.461,
+    "avg_delay_min": 25.0,
+    "num_flights": 349,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-17",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 43.41,
+    "cancel_rate_%": 16.209,
+    "avg_delay_min": 49.1,
+    "num_flights": 364,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-18",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 26.62,
+    "cancel_rate_%": 13.184,
+    "avg_delay_min": 11.3,
+    "num_flights": 402,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-19",
+    "day_of_week": "Friday",
+    "delay_rate_%": 17.66,
+    "cancel_rate_%": 11.692,
+    "avg_delay_min": -0.5,
+    "num_flights": 402,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-20",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 15.77,
+    "cancel_rate_%": 11.672,
+    "avg_delay_min": -2.3,
+    "num_flights": 317,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-21",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 18.62,
+    "cancel_rate_%": 10.714,
+    "avg_delay_min": 5.2,
+    "num_flights": 392,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-22",
+    "day_of_week": "Monday",
+    "delay_rate_%": 15.25,
+    "cancel_rate_%": 10.75,
+    "avg_delay_min": 2.5,
+    "num_flights": 400,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-23",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 17.24,
+    "cancel_rate_%": 6.322,
+    "avg_delay_min": 2.7,
+    "num_flights": 348,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-24",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 17.63,
+    "cancel_rate_%": 7.438,
+    "avg_delay_min": 0.9,
+    "num_flights": 363,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-25",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 15.14,
+    "cancel_rate_%": 10.918,
+    "avg_delay_min": -0.9,
+    "num_flights": 403,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-26",
+    "day_of_week": "Friday",
+    "delay_rate_%": 10.7,
+    "cancel_rate_%": 11.94,
+    "avg_delay_min": -1.4,
+    "num_flights": 402,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-27",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 5.96,
+    "cancel_rate_%": 8.15,
+    "avg_delay_min": -12.4,
+    "num_flights": 319,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-28",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 10.18,
+    "cancel_rate_%": 5.344,
+    "avg_delay_min": -7.1,
+    "num_flights": 393,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-29",
+    "day_of_week": "Monday",
+    "delay_rate_%": 18.88,
+    "cancel_rate_%": 4.337,
+    "avg_delay_min": 4.4,
+    "num_flights": 392,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-30",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 9.33,
+    "cancel_rate_%": 1.458,
+    "avg_delay_min": -11.3,
+    "num_flights": 343,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-01-31",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 7.8,
+    "cancel_rate_%": 1.95,
+    "avg_delay_min": -17.1,
+    "num_flights": 359,
+    "year": "2024",
+    "month": 1
+  },
+  {
+    "date": "2024-02-01",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 11.42,
+    "cancel_rate_%": 3.299,
+    "avg_delay_min": -14.2,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-02",
+    "day_of_week": "Friday",
+    "delay_rate_%": 10.91,
+    "cancel_rate_%": 1.015,
+    "avg_delay_min": -16.8,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-03",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 12.06,
+    "cancel_rate_%": 0.635,
+    "avg_delay_min": -13.4,
+    "num_flights": 315,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-04",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 18.6,
+    "cancel_rate_%": 2.326,
+    "avg_delay_min": -0.7,
+    "num_flights": 387,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-05",
+    "day_of_week": "Monday",
+    "delay_rate_%": 12.98,
+    "cancel_rate_%": 0.509,
+    "avg_delay_min": -7.1,
+    "num_flights": 393,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-06",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 4.66,
+    "cancel_rate_%": 0.292,
+    "avg_delay_min": -14.9,
+    "num_flights": 343,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-07",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 5.57,
+    "cancel_rate_%": 0.279,
+    "avg_delay_min": -16.2,
+    "num_flights": 359,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-08",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 7.87,
+    "cancel_rate_%": 0.508,
+    "avg_delay_min": -12.5,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-09",
+    "day_of_week": "Friday",
+    "delay_rate_%": 14.25,
+    "cancel_rate_%": 0.509,
+    "avg_delay_min": -4.4,
+    "num_flights": 393,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-10",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 8.23,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -12.0,
+    "num_flights": 316,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-11",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 6.76,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -7.5,
+    "num_flights": 370,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-12",
+    "day_of_week": "Monday",
+    "delay_rate_%": 8.25,
+    "cancel_rate_%": 0.515,
+    "avg_delay_min": -7.8,
+    "num_flights": 388,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-13",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 5.88,
+    "cancel_rate_%": 0.882,
+    "avg_delay_min": -10.1,
+    "num_flights": 340,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-14",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 9.09,
+    "cancel_rate_%": 0.568,
+    "avg_delay_min": -6.7,
+    "num_flights": 352,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-15",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 16.91,
+    "cancel_rate_%": 0.245,
+    "avg_delay_min": 1.7,
+    "num_flights": 408,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-16",
+    "day_of_week": "Friday",
+    "delay_rate_%": 15.35,
+    "cancel_rate_%": 0.24,
+    "avg_delay_min": 1.5,
+    "num_flights": 417,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-17",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 10.48,
+    "cancel_rate_%": 0.283,
+    "avg_delay_min": -8.2,
+    "num_flights": 353,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-18",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 13.64,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -1.5,
+    "num_flights": 396,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-19",
+    "day_of_week": "Monday",
+    "delay_rate_%": 11.35,
+    "cancel_rate_%": 0.242,
+    "avg_delay_min": -7.6,
+    "num_flights": 414,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-20",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 11.26,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -1.6,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-21",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 7.33,
+    "cancel_rate_%": 0.785,
+    "avg_delay_min": -9.1,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-22",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 9.74,
+    "cancel_rate_%": 0.475,
+    "avg_delay_min": -10.6,
+    "num_flights": 421,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-23",
+    "day_of_week": "Friday",
+    "delay_rate_%": 12.2,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -2.7,
+    "num_flights": 418,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-24",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 7.93,
+    "cancel_rate_%": 0.283,
+    "avg_delay_min": -5.3,
+    "num_flights": 353,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-25",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 16.55,
+    "cancel_rate_%": 0.24,
+    "avg_delay_min": 1.4,
+    "num_flights": 417,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-26",
+    "day_of_week": "Monday",
+    "delay_rate_%": 17.87,
+    "cancel_rate_%": 0.242,
+    "avg_delay_min": 0.4,
+    "num_flights": 414,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-27",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 11.26,
+    "cancel_rate_%": 0.524,
+    "avg_delay_min": 0.4,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-28",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 15.45,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 0.4,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-02-29",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 16.43,
+    "cancel_rate_%": 0.238,
+    "avg_delay_min": 3.2,
+    "num_flights": 420,
+    "year": "2024",
+    "month": 2
+  },
+  {
+    "date": "2024-03-01",
+    "day_of_week": "Friday",
+    "delay_rate_%": 17.46,
+    "cancel_rate_%": 0.718,
+    "avg_delay_min": 4.3,
+    "num_flights": 418,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-02",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 25.64,
+    "cancel_rate_%": 0.57,
+    "avg_delay_min": 7.0,
+    "num_flights": 351,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-03",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 24.16,
+    "cancel_rate_%": 0.718,
+    "avg_delay_min": 11.0,
+    "num_flights": 418,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-04",
+    "day_of_week": "Monday",
+    "delay_rate_%": 23.67,
+    "cancel_rate_%": 0.242,
+    "avg_delay_min": 4.4,
+    "num_flights": 414,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-05",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 13.87,
+    "cancel_rate_%": 0.785,
+    "avg_delay_min": -4.8,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-06",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 6.77,
+    "cancel_rate_%": 0.26,
+    "avg_delay_min": -9.8,
+    "num_flights": 384,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-07",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 15.91,
+    "cancel_rate_%": 1.188,
+    "avg_delay_min": 2.3,
+    "num_flights": 421,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-08",
+    "day_of_week": "Friday",
+    "delay_rate_%": 13.4,
+    "cancel_rate_%": 0.239,
+    "avg_delay_min": -5.5,
+    "num_flights": 418,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-09",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 14.61,
+    "cancel_rate_%": 0.562,
+    "avg_delay_min": 0.5,
+    "num_flights": 356,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-10",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 19.29,
+    "cancel_rate_%": 0.476,
+    "avg_delay_min": 5.1,
+    "num_flights": 420,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-11",
+    "day_of_week": "Monday",
+    "delay_rate_%": 14.11,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 3.4,
+    "num_flights": 418,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-12",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 8.44,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -7.2,
+    "num_flights": 391,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-13",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 14.25,
+    "cancel_rate_%": 0.509,
+    "avg_delay_min": -2.1,
+    "num_flights": 393,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-14",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 18.52,
+    "cancel_rate_%": 1.852,
+    "avg_delay_min": 4.7,
+    "num_flights": 432,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-15",
+    "day_of_week": "Friday",
+    "delay_rate_%": 18.16,
+    "cancel_rate_%": 0.23,
+    "avg_delay_min": 3.8,
+    "num_flights": 435,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-16",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 14.71,
+    "cancel_rate_%": 1.07,
+    "avg_delay_min": -1.6,
+    "num_flights": 374,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-17",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 13.52,
+    "cancel_rate_%": 0.699,
+    "avg_delay_min": -3.4,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-18",
+    "day_of_week": "Monday",
+    "delay_rate_%": 12.21,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -6.2,
+    "num_flights": 434,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-19",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 5.82,
+    "cancel_rate_%": 0.506,
+    "avg_delay_min": -9.1,
+    "num_flights": 395,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-20",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 10.61,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -1.5,
+    "num_flights": 396,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-21",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 14.22,
+    "cancel_rate_%": 0.459,
+    "avg_delay_min": -0.3,
+    "num_flights": 436,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-22",
+    "day_of_week": "Friday",
+    "delay_rate_%": 18.41,
+    "cancel_rate_%": 1.166,
+    "avg_delay_min": 0.9,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-23",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 15.95,
+    "cancel_rate_%": 0.27,
+    "avg_delay_min": 3.8,
+    "num_flights": 370,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-24",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 16.16,
+    "cancel_rate_%": 0.703,
+    "avg_delay_min": 0.8,
+    "num_flights": 427,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-25",
+    "day_of_week": "Monday",
+    "delay_rate_%": 18.48,
+    "cancel_rate_%": 0.462,
+    "avg_delay_min": 1.9,
+    "num_flights": 433,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-26",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 19.85,
+    "cancel_rate_%": 0.254,
+    "avg_delay_min": 0.5,
+    "num_flights": 393,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-27",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 21.32,
+    "cancel_rate_%": 0.254,
+    "avg_delay_min": 10.3,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-28",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 17.93,
+    "cancel_rate_%": 0.46,
+    "avg_delay_min": 3.2,
+    "num_flights": 435,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-29",
+    "day_of_week": "Friday",
+    "delay_rate_%": 14.45,
+    "cancel_rate_%": 0.932,
+    "avg_delay_min": -1.2,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-30",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 14.56,
+    "cancel_rate_%": 0.809,
+    "avg_delay_min": -1.7,
+    "num_flights": 371,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-03-31",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 18.79,
+    "cancel_rate_%": 1.392,
+    "avg_delay_min": 2.4,
+    "num_flights": 431,
+    "year": "2024",
+    "month": 3
+  },
+  {
+    "date": "2024-04-01",
+    "day_of_week": "Monday",
+    "delay_rate_%": 14.42,
+    "cancel_rate_%": 0.915,
+    "avg_delay_min": -1.0,
+    "num_flights": 437,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-02",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 8.63,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -6.3,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-03",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 10.35,
+    "cancel_rate_%": 0.758,
+    "avg_delay_min": -5.1,
+    "num_flights": 396,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-04",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 20.09,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 5.0,
+    "num_flights": 438,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-05",
+    "day_of_week": "Friday",
+    "delay_rate_%": 15.63,
+    "cancel_rate_%": 0.69,
+    "avg_delay_min": -2.4,
+    "num_flights": 435,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-06",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 16.17,
+    "cancel_rate_%": 1.887,
+    "avg_delay_min": -1.2,
+    "num_flights": 371,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-07",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 14.72,
+    "cancel_rate_%": 0.701,
+    "avg_delay_min": -3.9,
+    "num_flights": 428,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-08",
+    "day_of_week": "Monday",
+    "delay_rate_%": 18.0,
+    "cancel_rate_%": 0.228,
+    "avg_delay_min": 2.5,
+    "num_flights": 439,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-09",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 10.24,
+    "cancel_rate_%": 0.732,
+    "avg_delay_min": -3.5,
+    "num_flights": 410,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-10",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 11.44,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -4.2,
+    "num_flights": 411,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-11",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 15.11,
+    "cancel_rate_%": 0.222,
+    "avg_delay_min": 2.3,
+    "num_flights": 450,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-12",
+    "day_of_week": "Friday",
+    "delay_rate_%": 18.22,
+    "cancel_rate_%": 0.222,
+    "avg_delay_min": 4.7,
+    "num_flights": 450,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-13",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 13.02,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -5.4,
+    "num_flights": 384,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-14",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 12.01,
+    "cancel_rate_%": 0.231,
+    "avg_delay_min": -4.9,
+    "num_flights": 433,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-15",
+    "day_of_week": "Monday",
+    "delay_rate_%": 13.5,
+    "cancel_rate_%": 0.442,
+    "avg_delay_min": -2.6,
+    "num_flights": 452,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-16",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 18.63,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 5.1,
+    "num_flights": 408,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-17",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 36.41,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 19.5,
+    "num_flights": 423,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-18",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 20.51,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 6.1,
+    "num_flights": 468,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-19",
+    "day_of_week": "Friday",
+    "delay_rate_%": 16.67,
+    "cancel_rate_%": 0.214,
+    "avg_delay_min": 0.8,
+    "num_flights": 468,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-20",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 13.71,
+    "cancel_rate_%": 0.761,
+    "avg_delay_min": 1.1,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-21",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 25.16,
+    "cancel_rate_%": 0.434,
+    "avg_delay_min": 9.3,
+    "num_flights": 461,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-22",
+    "day_of_week": "Monday",
+    "delay_rate_%": 20.47,
+    "cancel_rate_%": 0.213,
+    "avg_delay_min": 6.7,
+    "num_flights": 469,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-23",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 12.53,
+    "cancel_rate_%": 0.241,
+    "avg_delay_min": -3.8,
+    "num_flights": 415,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-24",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 6.87,
+    "cancel_rate_%": 0.711,
+    "avg_delay_min": -4.5,
+    "num_flights": 422,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-25",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 17.63,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 1.9,
+    "num_flights": 465,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-26",
+    "day_of_week": "Friday",
+    "delay_rate_%": 16.88,
+    "cancel_rate_%": 0.427,
+    "avg_delay_min": -0.0,
+    "num_flights": 468,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-27",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 15.82,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 0.3,
+    "num_flights": 392,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-28",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 17.94,
+    "cancel_rate_%": 0.219,
+    "avg_delay_min": 2.0,
+    "num_flights": 457,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-29",
+    "day_of_week": "Monday",
+    "delay_rate_%": 14.01,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -2.2,
+    "num_flights": 464,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-04-30",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 6.73,
+    "cancel_rate_%": 0.24,
+    "avg_delay_min": -5.2,
+    "num_flights": 416,
+    "year": "2024",
+    "month": 4
+  },
+  {
+    "date": "2024-05-01",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 11.32,
+    "cancel_rate_%": 0.236,
+    "avg_delay_min": -0.9,
+    "num_flights": 424,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-02",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 12.82,
+    "cancel_rate_%": 1.068,
+    "avg_delay_min": -0.0,
+    "num_flights": 468,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-03",
+    "day_of_week": "Friday",
+    "delay_rate_%": 12.31,
+    "cancel_rate_%": 0.212,
+    "avg_delay_min": -0.8,
+    "num_flights": 471,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-04",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 12.66,
+    "cancel_rate_%": 0.248,
+    "avg_delay_min": -3.5,
+    "num_flights": 403,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-05",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 27.39,
+    "cancel_rate_%": 0.87,
+    "avg_delay_min": 11.4,
+    "num_flights": 460,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-06",
+    "day_of_week": "Monday",
+    "delay_rate_%": 27.88,
+    "cancel_rate_%": 1.258,
+    "avg_delay_min": 9.1,
+    "num_flights": 477,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-07",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 19.2,
+    "cancel_rate_%": 0.468,
+    "avg_delay_min": 2.9,
+    "num_flights": 427,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-08",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 13.23,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -1.4,
+    "num_flights": 431,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-09",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 18.78,
+    "cancel_rate_%": 0.844,
+    "avg_delay_min": 3.9,
+    "num_flights": 474,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-10",
+    "day_of_week": "Friday",
+    "delay_rate_%": 28.75,
+    "cancel_rate_%": 0.211,
+    "avg_delay_min": 9.7,
+    "num_flights": 473,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-11",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 17.49,
+    "cancel_rate_%": 0.493,
+    "avg_delay_min": 1.8,
+    "num_flights": 406,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-12",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 19.53,
+    "cancel_rate_%": 0.644,
+    "avg_delay_min": 3.3,
+    "num_flights": 466,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-13",
+    "day_of_week": "Monday",
+    "delay_rate_%": 20.8,
+    "cancel_rate_%": 0.21,
+    "avg_delay_min": 4.8,
+    "num_flights": 476,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-14",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 13.11,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 0.2,
+    "num_flights": 427,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-15",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 15.28,
+    "cancel_rate_%": 0.463,
+    "avg_delay_min": 2.1,
+    "num_flights": 432,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-16",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 31.13,
+    "cancel_rate_%": 0.825,
+    "avg_delay_min": 17.8,
+    "num_flights": 485,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-17",
+    "day_of_week": "Friday",
+    "delay_rate_%": 28.92,
+    "cancel_rate_%": 0.204,
+    "avg_delay_min": 10.1,
+    "num_flights": 491,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-18",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 18.35,
+    "cancel_rate_%": 0.229,
+    "avg_delay_min": 5.7,
+    "num_flights": 436,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-19",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 24.44,
+    "cancel_rate_%": 0.205,
+    "avg_delay_min": 9.0,
+    "num_flights": 487,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-20",
+    "day_of_week": "Monday",
+    "delay_rate_%": 24.24,
+    "cancel_rate_%": 0.407,
+    "avg_delay_min": 11.6,
+    "num_flights": 491,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-21",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 39.66,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 21.5,
+    "num_flights": 469,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-22",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 21.32,
+    "cancel_rate_%": 0.64,
+    "avg_delay_min": 9.3,
+    "num_flights": 469,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-23",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 25.6,
+    "cancel_rate_%": 0.403,
+    "avg_delay_min": 12.5,
+    "num_flights": 496,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-24",
+    "day_of_week": "Friday",
+    "delay_rate_%": 26.11,
+    "cancel_rate_%": 0.202,
+    "avg_delay_min": 10.4,
+    "num_flights": 494,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-25",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 20.47,
+    "cancel_rate_%": 0.471,
+    "avg_delay_min": 5.4,
+    "num_flights": 425,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-26",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 20.9,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 5.6,
+    "num_flights": 445,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-27",
+    "day_of_week": "Monday",
+    "delay_rate_%": 14.17,
+    "cancel_rate_%": 0.202,
+    "avg_delay_min": 1.1,
+    "num_flights": 494,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-28",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 20.08,
+    "cancel_rate_%": 1.691,
+    "avg_delay_min": 6.2,
+    "num_flights": 473,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-29",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 24.95,
+    "cancel_rate_%": 0.211,
+    "avg_delay_min": 9.3,
+    "num_flights": 473,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-30",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 22.38,
+    "cancel_rate_%": 2.218,
+    "avg_delay_min": 10.4,
+    "num_flights": 496,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-05-31",
+    "day_of_week": "Friday",
+    "delay_rate_%": 27.53,
+    "cancel_rate_%": 0.81,
+    "avg_delay_min": 12.3,
+    "num_flights": 494,
+    "year": "2024",
+    "month": 5
+  },
+  {
+    "date": "2024-06-01",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 23.69,
+    "cancel_rate_%": 1.595,
+    "avg_delay_min": 12.0,
+    "num_flights": 439,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-02",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 39.59,
+    "cancel_rate_%": 0.816,
+    "avg_delay_min": 22.2,
+    "num_flights": 490,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-03",
+    "day_of_week": "Monday",
+    "delay_rate_%": 34.21,
+    "cancel_rate_%": 0.81,
+    "avg_delay_min": 15.7,
+    "num_flights": 494,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-04",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 32.16,
+    "cancel_rate_%": 0.622,
+    "avg_delay_min": 12.6,
+    "num_flights": 482,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-05",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 27.66,
+    "cancel_rate_%": 0.205,
+    "avg_delay_min": 12.3,
+    "num_flights": 488,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-06",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 26.38,
+    "cancel_rate_%": 0.787,
+    "avg_delay_min": 11.2,
+    "num_flights": 508,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-07",
+    "day_of_week": "Friday",
+    "delay_rate_%": 27.01,
+    "cancel_rate_%": 0.391,
+    "avg_delay_min": 9.6,
+    "num_flights": 511,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-08",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 21.82,
+    "cancel_rate_%": 0.847,
+    "avg_delay_min": 8.0,
+    "num_flights": 472,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-09",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 23.97,
+    "cancel_rate_%": 0.196,
+    "avg_delay_min": 11.8,
+    "num_flights": 509,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-10",
+    "day_of_week": "Monday",
+    "delay_rate_%": 17.35,
+    "cancel_rate_%": 0.195,
+    "avg_delay_min": 4.8,
+    "num_flights": 513,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-11",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 19.92,
+    "cancel_rate_%": 0.201,
+    "avg_delay_min": 5.6,
+    "num_flights": 497,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-12",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 24.05,
+    "cancel_rate_%": 0.601,
+    "avg_delay_min": 6.3,
+    "num_flights": 499,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-13",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 20.81,
+    "cancel_rate_%": 0.385,
+    "avg_delay_min": 9.4,
+    "num_flights": 519,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-14",
+    "day_of_week": "Friday",
+    "delay_rate_%": 23.43,
+    "cancel_rate_%": 0.762,
+    "avg_delay_min": 12.1,
+    "num_flights": 525,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-15",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 29.82,
+    "cancel_rate_%": 1.217,
+    "avg_delay_min": 14.1,
+    "num_flights": 493,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-16",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 25.87,
+    "cancel_rate_%": 0.386,
+    "avg_delay_min": 7.8,
+    "num_flights": 518,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-17",
+    "day_of_week": "Monday",
+    "delay_rate_%": 27.62,
+    "cancel_rate_%": 0.19,
+    "avg_delay_min": 9.9,
+    "num_flights": 525,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-18",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 22.76,
+    "cancel_rate_%": 0.973,
+    "avg_delay_min": 8.5,
+    "num_flights": 514,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-19",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 24.47,
+    "cancel_rate_%": 0.388,
+    "avg_delay_min": 9.4,
+    "num_flights": 515,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-20",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 23.66,
+    "cancel_rate_%": 1.145,
+    "avg_delay_min": 10.8,
+    "num_flights": 524,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-21",
+    "day_of_week": "Friday",
+    "delay_rate_%": 24.57,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 10.0,
+    "num_flights": 525,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-22",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 20.49,
+    "cancel_rate_%": 0.609,
+    "avg_delay_min": 8.0,
+    "num_flights": 493,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-23",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 22.97,
+    "cancel_rate_%": 1.158,
+    "avg_delay_min": 9.1,
+    "num_flights": 518,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-24",
+    "day_of_week": "Monday",
+    "delay_rate_%": 25.33,
+    "cancel_rate_%": 0.381,
+    "avg_delay_min": 9.8,
+    "num_flights": 525,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-25",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 25.29,
+    "cancel_rate_%": 0.584,
+    "avg_delay_min": 11.0,
+    "num_flights": 514,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-26",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 27.13,
+    "cancel_rate_%": 0.388,
+    "avg_delay_min": 16.2,
+    "num_flights": 516,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-27",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 36.78,
+    "cancel_rate_%": 0.575,
+    "avg_delay_min": 22.1,
+    "num_flights": 522,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-28",
+    "day_of_week": "Friday",
+    "delay_rate_%": 27.65,
+    "cancel_rate_%": 0.758,
+    "avg_delay_min": 10.1,
+    "num_flights": 528,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-29",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 19.8,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 6.5,
+    "num_flights": 500,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-06-30",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 23.14,
+    "cancel_rate_%": 0.98,
+    "avg_delay_min": 9.5,
+    "num_flights": 510,
+    "year": "2024",
+    "month": 6
+  },
+  {
+    "date": "2024-07-01",
+    "day_of_week": "Monday",
+    "delay_rate_%": 23.4,
+    "cancel_rate_%": 0.774,
+    "avg_delay_min": 8.1,
+    "num_flights": 517,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-02",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 24.07,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 6.9,
+    "num_flights": 511,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-03",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 24.04,
+    "cancel_rate_%": 0.385,
+    "avg_delay_min": 7.4,
+    "num_flights": 520,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-04",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 13.86,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 1.7,
+    "num_flights": 469,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-05",
+    "day_of_week": "Friday",
+    "delay_rate_%": 18.81,
+    "cancel_rate_%": 0.409,
+    "avg_delay_min": 3.8,
+    "num_flights": 489,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-06",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 20.72,
+    "cancel_rate_%": 0.402,
+    "avg_delay_min": 6.7,
+    "num_flights": 497,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-07",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 21.69,
+    "cancel_rate_%": 0.96,
+    "avg_delay_min": 5.5,
+    "num_flights": 521,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-08",
+    "day_of_week": "Monday",
+    "delay_rate_%": 21.23,
+    "cancel_rate_%": 1.304,
+    "avg_delay_min": 12.3,
+    "num_flights": 537,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-09",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 23.52,
+    "cancel_rate_%": 1.338,
+    "avg_delay_min": 10.0,
+    "num_flights": 523,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-10",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 22.05,
+    "cancel_rate_%": 1.141,
+    "avg_delay_min": 9.1,
+    "num_flights": 526,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-11",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 23.69,
+    "cancel_rate_%": 1.679,
+    "avg_delay_min": 7.7,
+    "num_flights": 536,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-12",
+    "day_of_week": "Friday",
+    "delay_rate_%": 25.09,
+    "cancel_rate_%": 1.301,
+    "avg_delay_min": 6.0,
+    "num_flights": 538,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-13",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 16.9,
+    "cancel_rate_%": 0.398,
+    "avg_delay_min": 1.6,
+    "num_flights": 503,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-14",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 20.79,
+    "cancel_rate_%": 1.701,
+    "avg_delay_min": 7.3,
+    "num_flights": 529,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-15",
+    "day_of_week": "Monday",
+    "delay_rate_%": 22.26,
+    "cancel_rate_%": 1.484,
+    "avg_delay_min": 11.7,
+    "num_flights": 539,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-16",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 20.61,
+    "cancel_rate_%": 0.191,
+    "avg_delay_min": 4.3,
+    "num_flights": 524,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-17",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 23.34,
+    "cancel_rate_%": 0.949,
+    "avg_delay_min": 10.8,
+    "num_flights": 527,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-18",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 24.21,
+    "cancel_rate_%": 2.421,
+    "avg_delay_min": 13.9,
+    "num_flights": 537,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-19",
+    "day_of_week": "Friday",
+    "delay_rate_%": 33.95,
+    "cancel_rate_%": 9.091,
+    "avg_delay_min": 28.2,
+    "num_flights": 539,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-20",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 33.47,
+    "cancel_rate_%": 8.617,
+    "avg_delay_min": 27.1,
+    "num_flights": 499,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-21",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 33.21,
+    "cancel_rate_%": 9.434,
+    "avg_delay_min": 27.0,
+    "num_flights": 530,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-22",
+    "day_of_week": "Monday",
+    "delay_rate_%": 37.48,
+    "cancel_rate_%": 6.308,
+    "avg_delay_min": 24.0,
+    "num_flights": 539,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-23",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 32.76,
+    "cancel_rate_%": 2.095,
+    "avg_delay_min": 20.7,
+    "num_flights": 525,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-24",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 23.53,
+    "cancel_rate_%": 0.759,
+    "avg_delay_min": 8.4,
+    "num_flights": 527,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-25",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 26.07,
+    "cancel_rate_%": 0.745,
+    "avg_delay_min": 7.8,
+    "num_flights": 537,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-26",
+    "day_of_week": "Friday",
+    "delay_rate_%": 18.74,
+    "cancel_rate_%": 0.371,
+    "avg_delay_min": 2.2,
+    "num_flights": 539,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-27",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 14.14,
+    "cancel_rate_%": 0.199,
+    "avg_delay_min": -0.7,
+    "num_flights": 502,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-28",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 20.79,
+    "cancel_rate_%": 0.189,
+    "avg_delay_min": 5.5,
+    "num_flights": 529,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-29",
+    "day_of_week": "Monday",
+    "delay_rate_%": 26.35,
+    "cancel_rate_%": 0.186,
+    "avg_delay_min": 13.0,
+    "num_flights": 539,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-30",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 20.57,
+    "cancel_rate_%": 0.19,
+    "avg_delay_min": 6.0,
+    "num_flights": 525,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-07-31",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 24.1,
+    "cancel_rate_%": 0.19,
+    "avg_delay_min": 8.7,
+    "num_flights": 527,
+    "year": "2024",
+    "month": 7
+  },
+  {
+    "date": "2024-08-01",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 28.41,
+    "cancel_rate_%": 0.561,
+    "avg_delay_min": 8.5,
+    "num_flights": 535,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-02",
+    "day_of_week": "Friday",
+    "delay_rate_%": 23.65,
+    "cancel_rate_%": 0.931,
+    "avg_delay_min": 7.8,
+    "num_flights": 537,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-03",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 25.05,
+    "cancel_rate_%": 2.424,
+    "avg_delay_min": 9.3,
+    "num_flights": 495,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-04",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 23.25,
+    "cancel_rate_%": 1.701,
+    "avg_delay_min": 8.9,
+    "num_flights": 529,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-05",
+    "day_of_week": "Monday",
+    "delay_rate_%": 20.3,
+    "cancel_rate_%": 2.235,
+    "avg_delay_min": 7.0,
+    "num_flights": 537,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-06",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 22.65,
+    "cancel_rate_%": 2.111,
+    "avg_delay_min": 10.8,
+    "num_flights": 521,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-07",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 25.24,
+    "cancel_rate_%": 1.147,
+    "avg_delay_min": 12.2,
+    "num_flights": 523,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-08",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 25.61,
+    "cancel_rate_%": 0.374,
+    "avg_delay_min": 9.3,
+    "num_flights": 535,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-09",
+    "day_of_week": "Friday",
+    "delay_rate_%": 27.19,
+    "cancel_rate_%": 0.559,
+    "avg_delay_min": 9.3,
+    "num_flights": 537,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-10",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 54.62,
+    "cancel_rate_%": 0.205,
+    "avg_delay_min": 37.3,
+    "num_flights": 487,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-11",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 25.23,
+    "cancel_rate_%": 0.374,
+    "avg_delay_min": 7.8,
+    "num_flights": 535,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-12",
+    "day_of_week": "Monday",
+    "delay_rate_%": 14.58,
+    "cancel_rate_%": 0.187,
+    "avg_delay_min": 2.2,
+    "num_flights": 535,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-13",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 13.29,
+    "cancel_rate_%": 0.578,
+    "avg_delay_min": 0.9,
+    "num_flights": 519,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-14",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 10.56,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -5.1,
+    "num_flights": 521,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-15",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 14.98,
+    "cancel_rate_%": 0.187,
+    "avg_delay_min": 1.0,
+    "num_flights": 534,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-16",
+    "day_of_week": "Friday",
+    "delay_rate_%": 17.35,
+    "cancel_rate_%": 0.187,
+    "avg_delay_min": 2.8,
+    "num_flights": 536,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-17",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 29.04,
+    "cancel_rate_%": 0.613,
+    "avg_delay_min": 23.1,
+    "num_flights": 489,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-18",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 30.52,
+    "cancel_rate_%": 4.494,
+    "avg_delay_min": 18.6,
+    "num_flights": 534,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-19",
+    "day_of_week": "Monday",
+    "delay_rate_%": 21.85,
+    "cancel_rate_%": 0.942,
+    "avg_delay_min": 12.3,
+    "num_flights": 531,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-20",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 13.43,
+    "cancel_rate_%": 0.413,
+    "avg_delay_min": -0.8,
+    "num_flights": 484,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-21",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 13.79,
+    "cancel_rate_%": 0.406,
+    "avg_delay_min": -0.8,
+    "num_flights": 493,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-22",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 20.97,
+    "cancel_rate_%": 1.311,
+    "avg_delay_min": 7.6,
+    "num_flights": 534,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-23",
+    "day_of_week": "Friday",
+    "delay_rate_%": 48.13,
+    "cancel_rate_%": 1.306,
+    "avg_delay_min": 26.9,
+    "num_flights": 536,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-24",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 23.16,
+    "cancel_rate_%": 0.216,
+    "avg_delay_min": 5.7,
+    "num_flights": 462,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-25",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 31.95,
+    "cancel_rate_%": 0.376,
+    "avg_delay_min": 11.4,
+    "num_flights": 532,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-26",
+    "day_of_week": "Monday",
+    "delay_rate_%": 21.24,
+    "cancel_rate_%": 0.772,
+    "avg_delay_min": 3.0,
+    "num_flights": 518,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-27",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 14.77,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 2.0,
+    "num_flights": 474,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-28",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 14.92,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 1.3,
+    "num_flights": 476,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-29",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 20.15,
+    "cancel_rate_%": 1.141,
+    "avg_delay_min": 8.7,
+    "num_flights": 526,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-30",
+    "day_of_week": "Friday",
+    "delay_rate_%": 19.73,
+    "cancel_rate_%": 0.759,
+    "avg_delay_min": 10.3,
+    "num_flights": 527,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-08-31",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 8.65,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -5.5,
+    "num_flights": 451,
+    "year": "2024",
+    "month": 8
+  },
+  {
+    "date": "2024-09-01",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 12.86,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -4.9,
+    "num_flights": 482,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-02",
+    "day_of_week": "Monday",
+    "delay_rate_%": 11.8,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -3.3,
+    "num_flights": 517,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-03",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 10.0,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -3.0,
+    "num_flights": 470,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-04",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 25.43,
+    "cancel_rate_%": 0.431,
+    "avg_delay_min": 8.1,
+    "num_flights": 464,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-05",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 16.24,
+    "cancel_rate_%": 0.792,
+    "avg_delay_min": -1.4,
+    "num_flights": 505,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-06",
+    "day_of_week": "Friday",
+    "delay_rate_%": 10.83,
+    "cancel_rate_%": 0.984,
+    "avg_delay_min": -5.2,
+    "num_flights": 508,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-07",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 9.98,
+    "cancel_rate_%": 0.227,
+    "avg_delay_min": -7.5,
+    "num_flights": 441,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-08",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 29.03,
+    "cancel_rate_%": 0.38,
+    "avg_delay_min": 13.9,
+    "num_flights": 527,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-09",
+    "day_of_week": "Monday",
+    "delay_rate_%": 19.31,
+    "cancel_rate_%": 0.382,
+    "avg_delay_min": 2.8,
+    "num_flights": 523,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-10",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 12.24,
+    "cancel_rate_%": 0.211,
+    "avg_delay_min": 0.5,
+    "num_flights": 474,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-11",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 14.77,
+    "cancel_rate_%": 0.633,
+    "avg_delay_min": -0.5,
+    "num_flights": 474,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-12",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 24.71,
+    "cancel_rate_%": 0.766,
+    "avg_delay_min": 6.9,
+    "num_flights": 522,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-13",
+    "day_of_week": "Friday",
+    "delay_rate_%": 15.3,
+    "cancel_rate_%": 0.382,
+    "avg_delay_min": 0.5,
+    "num_flights": 523,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-14",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 12.61,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -0.9,
+    "num_flights": 444,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-15",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 20.84,
+    "cancel_rate_%": 0.191,
+    "avg_delay_min": 4.0,
+    "num_flights": 523,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-16",
+    "day_of_week": "Monday",
+    "delay_rate_%": 20.15,
+    "cancel_rate_%": 0.384,
+    "avg_delay_min": -0.1,
+    "num_flights": 521,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-17",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 10.64,
+    "cancel_rate_%": 0.213,
+    "avg_delay_min": -7.2,
+    "num_flights": 470,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-18",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 9.36,
+    "cancel_rate_%": 0.426,
+    "avg_delay_min": -4.6,
+    "num_flights": 470,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-19",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 22.67,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 4.7,
+    "num_flights": 516,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-20",
+    "day_of_week": "Friday",
+    "delay_rate_%": 27.99,
+    "cancel_rate_%": 0.193,
+    "avg_delay_min": 11.0,
+    "num_flights": 518,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-21",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 13.57,
+    "cancel_rate_%": 0.226,
+    "avg_delay_min": -1.1,
+    "num_flights": 442,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-22",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 21.19,
+    "cancel_rate_%": 0.385,
+    "avg_delay_min": 6.3,
+    "num_flights": 519,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-23",
+    "day_of_week": "Monday",
+    "delay_rate_%": 20.08,
+    "cancel_rate_%": 0.579,
+    "avg_delay_min": 7.3,
+    "num_flights": 518,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-24",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 11.28,
+    "cancel_rate_%": 1.064,
+    "avg_delay_min": -4.6,
+    "num_flights": 470,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-25",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 11.91,
+    "cancel_rate_%": 0.426,
+    "avg_delay_min": -2.0,
+    "num_flights": 470,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-26",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 18.29,
+    "cancel_rate_%": 1.556,
+    "avg_delay_min": 3.0,
+    "num_flights": 514,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-27",
+    "day_of_week": "Friday",
+    "delay_rate_%": 17.64,
+    "cancel_rate_%": 1.938,
+    "avg_delay_min": 1.6,
+    "num_flights": 516,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-28",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 21.87,
+    "cancel_rate_%": 0.456,
+    "avg_delay_min": 1.3,
+    "num_flights": 439,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-29",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 22.09,
+    "cancel_rate_%": 0.194,
+    "avg_delay_min": 4.1,
+    "num_flights": 516,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-09-30",
+    "day_of_week": "Monday",
+    "delay_rate_%": 18.48,
+    "cancel_rate_%": 0.584,
+    "avg_delay_min": 4.2,
+    "num_flights": 514,
+    "year": "2024",
+    "month": 9
+  },
+  {
+    "date": "2024-10-01",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 8.97,
+    "cancel_rate_%": 0.23,
+    "avg_delay_min": -9.2,
+    "num_flights": 435,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-02",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 9.82,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -4.1,
+    "num_flights": 438,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-03",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 16.08,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 1.5,
+    "num_flights": 485,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-04",
+    "day_of_week": "Friday",
+    "delay_rate_%": 24.49,
+    "cancel_rate_%": 0.206,
+    "avg_delay_min": 7.0,
+    "num_flights": 486,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-05",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 5.67,
+    "cancel_rate_%": 1.031,
+    "avg_delay_min": -10.4,
+    "num_flights": 388,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-06",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 15.59,
+    "cancel_rate_%": 0.416,
+    "avg_delay_min": -0.3,
+    "num_flights": 481,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-07",
+    "day_of_week": "Monday",
+    "delay_rate_%": 9.34,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -8.3,
+    "num_flights": 482,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-08",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 8.86,
+    "cancel_rate_%": 0.233,
+    "avg_delay_min": -7.6,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-09",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 7.66,
+    "cancel_rate_%": 2.32,
+    "avg_delay_min": -8.7,
+    "num_flights": 431,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-10",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 14.35,
+    "cancel_rate_%": 1.871,
+    "avg_delay_min": -1.2,
+    "num_flights": 481,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-11",
+    "day_of_week": "Friday",
+    "delay_rate_%": 19.5,
+    "cancel_rate_%": 0.419,
+    "avg_delay_min": 1.3,
+    "num_flights": 477,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-12",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 10.24,
+    "cancel_rate_%": 0.525,
+    "avg_delay_min": -5.1,
+    "num_flights": 381,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-13",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 9.83,
+    "cancel_rate_%": 0.209,
+    "avg_delay_min": -7.6,
+    "num_flights": 478,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-14",
+    "day_of_week": "Monday",
+    "delay_rate_%": 10.12,
+    "cancel_rate_%": 0.207,
+    "avg_delay_min": -6.0,
+    "num_flights": 484,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-15",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 5.13,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -14.2,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-16",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 6.24,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -11.0,
+    "num_flights": 433,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-17",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 15.53,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -0.2,
+    "num_flights": 483,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-18",
+    "day_of_week": "Friday",
+    "delay_rate_%": 20.5,
+    "cancel_rate_%": 0.414,
+    "avg_delay_min": 6.2,
+    "num_flights": 483,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-19",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 9.16,
+    "cancel_rate_%": 0.262,
+    "avg_delay_min": -4.6,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-20",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 13.21,
+    "cancel_rate_%": 1.468,
+    "avg_delay_min": -2.8,
+    "num_flights": 477,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-21",
+    "day_of_week": "Monday",
+    "delay_rate_%": 14.43,
+    "cancel_rate_%": 1.856,
+    "avg_delay_min": -1.5,
+    "num_flights": 485,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-22",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 11.42,
+    "cancel_rate_%": 0.932,
+    "avg_delay_min": -3.2,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-23",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 11.57,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -0.1,
+    "num_flights": 432,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-24",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 16.39,
+    "cancel_rate_%": 0.622,
+    "avg_delay_min": 1.6,
+    "num_flights": 482,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-25",
+    "day_of_week": "Friday",
+    "delay_rate_%": 14.23,
+    "cancel_rate_%": 0.206,
+    "avg_delay_min": -1.8,
+    "num_flights": 485,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-26",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 11.64,
+    "cancel_rate_%": 0.265,
+    "avg_delay_min": -3.4,
+    "num_flights": 378,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-27",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 18.58,
+    "cancel_rate_%": 0.229,
+    "avg_delay_min": 3.1,
+    "num_flights": 436,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-28",
+    "day_of_week": "Monday",
+    "delay_rate_%": 11.51,
+    "cancel_rate_%": 0.226,
+    "avg_delay_min": -3.2,
+    "num_flights": 443,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-29",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 9.5,
+    "cancel_rate_%": 0.528,
+    "avg_delay_min": -0.5,
+    "num_flights": 379,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-30",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 8.38,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -8.5,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-10-31",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 12.04,
+    "cancel_rate_%": 1.047,
+    "avg_delay_min": -3.4,
+    "num_flights": 382,
+    "year": "2024",
+    "month": 10
+  },
+  {
+    "date": "2024-11-01",
+    "day_of_week": "Friday",
+    "delay_rate_%": 12.53,
+    "cancel_rate_%": 0.464,
+    "avg_delay_min": -1.3,
+    "num_flights": 431,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-02",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 9.75,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -5.1,
+    "num_flights": 359,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-03",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 16.01,
+    "cancel_rate_%": 0.696,
+    "avg_delay_min": -1.0,
+    "num_flights": 431,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-04",
+    "day_of_week": "Monday",
+    "delay_rate_%": 15.19,
+    "cancel_rate_%": 0.701,
+    "avg_delay_min": 2.8,
+    "num_flights": 428,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-05",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 10.22,
+    "cancel_rate_%": 0.276,
+    "avg_delay_min": -7.9,
+    "num_flights": 362,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-06",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 8.82,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -8.9,
+    "num_flights": 374,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-07",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 9.98,
+    "cancel_rate_%": 0.464,
+    "avg_delay_min": -6.9,
+    "num_flights": 431,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-08",
+    "day_of_week": "Friday",
+    "delay_rate_%": 9.79,
+    "cancel_rate_%": 0.699,
+    "avg_delay_min": -7.9,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-09",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 7.69,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -12.5,
+    "num_flights": 351,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-10",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 9.24,
+    "cancel_rate_%": 0.231,
+    "avg_delay_min": -4.8,
+    "num_flights": 433,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-11",
+    "day_of_week": "Monday",
+    "delay_rate_%": 11.4,
+    "cancel_rate_%": 0.658,
+    "avg_delay_min": -3.7,
+    "num_flights": 456,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-12",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 9.85,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -6.6,
+    "num_flights": 396,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-13",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 9.85,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -8.0,
+    "num_flights": 396,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-14",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 13.82,
+    "cancel_rate_%": 0.219,
+    "avg_delay_min": -5.4,
+    "num_flights": 456,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-15",
+    "day_of_week": "Friday",
+    "delay_rate_%": 10.94,
+    "cancel_rate_%": 0.223,
+    "avg_delay_min": -6.1,
+    "num_flights": 448,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-16",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 12.36,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -1.9,
+    "num_flights": 356,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-17",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 13.79,
+    "cancel_rate_%": 0.438,
+    "avg_delay_min": -4.7,
+    "num_flights": 457,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-18",
+    "day_of_week": "Monday",
+    "delay_rate_%": 11.55,
+    "cancel_rate_%": 0.871,
+    "avg_delay_min": -6.0,
+    "num_flights": 459,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-19",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 16.62,
+    "cancel_rate_%": 1.259,
+    "avg_delay_min": -3.4,
+    "num_flights": 397,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-20",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 21.11,
+    "cancel_rate_%": 1.508,
+    "avg_delay_min": 3.2,
+    "num_flights": 398,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-21",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 19.69,
+    "cancel_rate_%": 0.438,
+    "avg_delay_min": 2.0,
+    "num_flights": 457,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-22",
+    "day_of_week": "Friday",
+    "delay_rate_%": 15.54,
+    "cancel_rate_%": 1.577,
+    "avg_delay_min": -1.3,
+    "num_flights": 444,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-23",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 10.5,
+    "cancel_rate_%": 0.239,
+    "avg_delay_min": -8.6,
+    "num_flights": 419,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-24",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 9.93,
+    "cancel_rate_%": 0.662,
+    "avg_delay_min": -7.1,
+    "num_flights": 453,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-25",
+    "day_of_week": "Monday",
+    "delay_rate_%": 13.33,
+    "cancel_rate_%": 0.444,
+    "avg_delay_min": -3.1,
+    "num_flights": 450,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-26",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 9.98,
+    "cancel_rate_%": 0.222,
+    "avg_delay_min": -5.7,
+    "num_flights": 451,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-27",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 15.2,
+    "cancel_rate_%": 0.22,
+    "avg_delay_min": -2.0,
+    "num_flights": 454,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-28",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 10.93,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -3.0,
+    "num_flights": 247,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-29",
+    "day_of_week": "Friday",
+    "delay_rate_%": 13.32,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -2.3,
+    "num_flights": 398,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-11-30",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 15.81,
+    "cancel_rate_%": 0.465,
+    "avg_delay_min": -1.0,
+    "num_flights": 430,
+    "year": "2024",
+    "month": 11
+  },
+  {
+    "date": "2024-12-01",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 20.35,
+    "cancel_rate_%": 0.656,
+    "avg_delay_min": 5.9,
+    "num_flights": 457,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-02",
+    "day_of_week": "Monday",
+    "delay_rate_%": 35.19,
+    "cancel_rate_%": 2.004,
+    "avg_delay_min": 19.1,
+    "num_flights": 449,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-03",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 16.22,
+    "cancel_rate_%": 1.33,
+    "avg_delay_min": -0.9,
+    "num_flights": 376,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-04",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 35.43,
+    "cancel_rate_%": 2.1,
+    "avg_delay_min": 15.8,
+    "num_flights": 381,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-05",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 14.72,
+    "cancel_rate_%": 0.935,
+    "avg_delay_min": -1.7,
+    "num_flights": 428,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-06",
+    "day_of_week": "Friday",
+    "delay_rate_%": 12.85,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -2.6,
+    "num_flights": 428,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-07",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 6.78,
+    "cancel_rate_%": 0.295,
+    "avg_delay_min": -11.0,
+    "num_flights": 339,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-08",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 10.75,
+    "cancel_rate_%": 0.467,
+    "avg_delay_min": -6.0,
+    "num_flights": 428,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-09",
+    "day_of_week": "Monday",
+    "delay_rate_%": 12.88,
+    "cancel_rate_%": 0.468,
+    "avg_delay_min": -0.8,
+    "num_flights": 427,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-10",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 11.29,
+    "cancel_rate_%": 0.269,
+    "avg_delay_min": -3.1,
+    "num_flights": 372,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-11",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 11.05,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -6.9,
+    "num_flights": 380,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-12",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 12.27,
+    "cancel_rate_%": 0.463,
+    "avg_delay_min": -4.6,
+    "num_flights": 432,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-13",
+    "day_of_week": "Friday",
+    "delay_rate_%": 15.86,
+    "cancel_rate_%": 0.46,
+    "avg_delay_min": -0.4,
+    "num_flights": 435,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-14",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 11.76,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": -4.9,
+    "num_flights": 340,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-15",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 12.47,
+    "cancel_rate_%": 0.924,
+    "avg_delay_min": -5.0,
+    "num_flights": 433,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-16",
+    "day_of_week": "Monday",
+    "delay_rate_%": 15.24,
+    "cancel_rate_%": 0.462,
+    "avg_delay_min": -1.5,
+    "num_flights": 433,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-17",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 13.76,
+    "cancel_rate_%": 0.0,
+    "avg_delay_min": 1.5,
+    "num_flights": 378,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-18",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 18.75,
+    "cancel_rate_%": 0.521,
+    "avg_delay_min": 1.7,
+    "num_flights": 384,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-19",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 15.66,
+    "cancel_rate_%": 0.964,
+    "avg_delay_min": -1.2,
+    "num_flights": 415,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-20",
+    "day_of_week": "Friday",
+    "delay_rate_%": 23.4,
+    "cancel_rate_%": 0.946,
+    "avg_delay_min": 14.4,
+    "num_flights": 423,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-21",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 25.38,
+    "cancel_rate_%": 1.269,
+    "avg_delay_min": 9.5,
+    "num_flights": 394,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-22",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 18.87,
+    "cancel_rate_%": 0.472,
+    "avg_delay_min": 4.8,
+    "num_flights": 424,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-23",
+    "day_of_week": "Monday",
+    "delay_rate_%": 13.55,
+    "cancel_rate_%": 0.234,
+    "avg_delay_min": -4.4,
+    "num_flights": 428,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-24",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 10.8,
+    "cancel_rate_%": 1.108,
+    "avg_delay_min": -11.5,
+    "num_flights": 361,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-25",
+    "day_of_week": "Wednesday",
+    "delay_rate_%": 6.79,
+    "cancel_rate_%": 0.272,
+    "avg_delay_min": -11.3,
+    "num_flights": 368,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-26",
+    "day_of_week": "Thursday",
+    "delay_rate_%": 22.95,
+    "cancel_rate_%": 0.703,
+    "avg_delay_min": 4.2,
+    "num_flights": 427,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-27",
+    "day_of_week": "Friday",
+    "delay_rate_%": 25.35,
+    "cancel_rate_%": 0.235,
+    "avg_delay_min": 5.1,
+    "num_flights": 426,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-28",
+    "day_of_week": "Saturday",
+    "delay_rate_%": 25.32,
+    "cancel_rate_%": 0.759,
+    "avg_delay_min": 9.3,
+    "num_flights": 395,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-29",
+    "day_of_week": "Sunday",
+    "delay_rate_%": 22.88,
+    "cancel_rate_%": 1.179,
+    "avg_delay_min": 6.0,
+    "num_flights": 424,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-30",
+    "day_of_week": "Monday",
+    "delay_rate_%": 15.85,
+    "cancel_rate_%": 0.233,
+    "avg_delay_min": -2.3,
+    "num_flights": 429,
+    "year": "2024",
+    "month": 12
+  },
+  {
+    "date": "2024-12-31",
+    "day_of_week": "Tuesday",
+    "delay_rate_%": 7.73,
+    "cancel_rate_%": 0.267,
+    "avg_delay_min": -10.4,
+    "num_flights": 375,
+    "year": "2024",
+    "month": 12
+  }
+]
