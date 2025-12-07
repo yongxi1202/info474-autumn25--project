@@ -68,7 +68,7 @@
             p.textSize(18);
             p.fill(127, 218, 137); 
             p.noStroke();
-            p.text('Flight Volume Growth', offsetX - 50, offsetY - 45);
+            p.text('Flight Volume Growth (2010-2019)', offsetX - 50, offsetY - 45);
             
             p.textSize(12);
             p.fill(150, 180, 150);
@@ -88,6 +88,17 @@
                 var labelValue = Math.round((data.maxValue / 5) * i);
                 p.text(labelValue, offsetX - 10, y);
             }
+            
+            // Y-axis label
+            p.push();
+            p.translate(offsetX - 55, offsetY + chartHeight / 2);
+            p.rotate(-p.HALF_PI);
+            p.textAlign(p.CENTER, p.CENTER);
+            p.textSize(13);
+            p.fill(150, 180, 150);
+            p.noStroke();
+            p.text('Flights per Day', 0, 0);
+            p.pop();
             
             p.stroke(60, 60, 80);
             p.strokeWeight(0.5);
