@@ -1,4 +1,3 @@
-// viz_pricing.js - Disney-inspired clean design with 3-color system
 // Visualization showing flight pricing patterns to Seattle
 (function () {
     window.VizPricing = {
