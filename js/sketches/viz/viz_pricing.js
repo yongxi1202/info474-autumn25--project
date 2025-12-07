@@ -284,18 +284,21 @@
             
             // ============ LEGEND ============
             var legendY = dayStartY + dayBoxHeight + 35;
-            var legendX = offsetX + chartWidth / 2;
+            
+            // Calculate total legend width: 3 items with spacing
+            var legendItemSpacing = 100;
+            var totalLegendWidth = legendItemSpacing * 2;  // Space between 3 items
+            var legendCenterX = offsetX + chartWidth / 2;
+            var legendStartX = legendCenterX - totalLegendWidth / 2;
             
             p.textAlign(p.CENTER, p.TOP);
             p.textSize(12);
             p.fill(180);
             p.textStyle(p.BOLD);
-            p.text('Price Level Guide:', legendX, legendY);
+            p.text('Price Level Guide:', legendCenterX, legendY);
             p.textStyle(p.NORMAL);
             
             var legendItemY = legendY + 20;
-            var legendItemSpacing = 100;
-            var legendStartX = legendX - legendItemSpacing;
             
             // Low
             p.fill(90, 220, 130);
@@ -325,7 +328,7 @@
             p.textSize(10);
             p.fill(120, 140, 120);
             p.text('Data sources: KAYAK, Google Flights, Expedia (2022-2025 average)', 
-                   offsetX + chartWidth / 2, legendItemY + 35);
+                   legendCenterX, legendItemY + 35);
             
             p.pop();
         }
