@@ -45,9 +45,9 @@
             var flightCounts = [207, 87, 68, 61, 24];
             
             var left = manager.offsetX || 20;
-            var top = (manager.offsetY || 40) + 10; // Add 10px more top padding
+            var top = (manager.offsetY || 40) + 10; 
             var availW = (manager.width || 600) - 40;
-            var availH = (manager.height || 520) - 90; // Use more available height
+            var availH = (manager.height || 520) - 90; 
             var rowH = availH / airlines.length;
             var barMaxW = Math.max(60, availW - 140);
             
@@ -61,7 +61,6 @@
             p.textSize(18);
             p.text('Most Popular Airlines to Seattle from 2022 to 2025', (manager.width || 600) / 2, top - 40);
 
-            // First pass: calculate all logo dimensions to find max width
             var logoMaxHeight = Math.min(rowH * 0.6, 60);
             var logoInfo = [];
             var maxLogoWidth = 0;
@@ -73,13 +72,11 @@
                 if (logos[airlines[i]] && logos[airlines[i]].width > 0) {
                     var logo = logos[airlines[i]];
                     var aspectRatio = logo.width / logo.height;
-                    
-                    // Give Horizon Air extra size boost
+                
                     var heightMultiplier = (airlines[i] === 'Horizon Air') ? 1.4 : 1.0;
                     logoHeight = logoMaxHeight * heightMultiplier;
                     logoWidth = logoHeight * aspectRatio;
                     
-                    // If too wide, constrain by width
                     var maxWidth = 140;
                     if (logoWidth > maxWidth) {
                         logoWidth = maxWidth;
@@ -92,15 +89,12 @@
                 logoInfo.push({ width: logoWidth, height: logoHeight });
             }
             
-            // Use the max logo width for consistent bar alignment
             var barStartX = left + maxLogoWidth + 20;
 
-            // Second pass: draw logos and bars
             for (var i = 0; i < airlines.length; i++) {
                 var y = top + i * rowH + rowH / 2;
                 var info = logoInfo[i];
 
-                // Draw logo (right-aligned to barStartX)
                 if (logos[airlines[i]] && logos[airlines[i]].width > 0 && info.width > 0) {
                     var logoX = barStartX - 20 - info.width;
                     p.image(logos[airlines[i]], logoX, y - info.height / 2, info.width, info.height);
@@ -117,10 +111,16 @@
 
                 if (animationProgress > 0.2 && bw > 30) {
                     var alpha = Math.min(255, (animationProgress - 0.2) * 255 / 0.8);
-                    p.fill(0, 0, 0, alpha);
                     p.textAlign(p.LEFT, p.CENTER);
-                    p.textSize(11);
-                    p.text(flightCounts[i].toLocaleString() + " flights/day", barStartX + 6, y);
+                    p.textSize(14);
+
+                    if (i === airlines.length - 1) {
+                        p.fill(127, 218, 137, alpha);
+                        p.text(flightCounts[i].toLocaleString() + " flights/day", barStartX + bw + 8, y);
+                    } else {
+                        p.fill(0, 0, 0, alpha);
+                        p.text(flightCounts[i].toLocaleString() + " flights/day", barStartX + 6, y);
+                    }
                 }
             }
             p.pop();
