@@ -71,15 +71,19 @@
             // ============ PART 1: MONTHLY GRID (3x4) ============
             var monthY = offsetY + 45;
             
-            // Section header - no "hover for details" text
+            // Section header
             p.textSize(17);
             p.fill(230, 246, 157);
             p.textAlign(p.LEFT, p.TOP);
             p.text('📅 Best Months to Book', offsetX - 10, monthY);
             
-            var monthStartY = monthY + 35;  // Reduced spacing since we removed subtitle
+            var monthStartY = monthY + 35;
             var boxSize = 80;
             var boxSpacing = 15;
+            
+            // Calculate centering for 4 columns
+            var monthGridWidth = 4 * (boxSize + boxSpacing) - boxSpacing;  // 365px
+            var monthStartX = offsetX + (chartWidth - monthGridWidth) / 2;  // Center the grid
             
             var mx = p.mouseX;
             var my = p.mouseY;
@@ -90,7 +94,7 @@
                 var month = data.months[i];
                 var row = Math.floor(i / 4);
                 var col = i % 4;
-                var x = offsetX + col * (boxSize + boxSpacing);
+                var x = monthStartX + col * (boxSize + boxSpacing);
                 var y = monthStartY + row * (boxSize + boxSpacing);
                 
                 // Check hover
@@ -177,23 +181,27 @@
             // ============ PART 2: WEEKDAY BOXES (1x7) ============
             var dayY = monthStartY + 3 * (boxSize + boxSpacing) + 40;
             
-            // Section header - no "hover for details" text
+            // Section header
             p.textSize(17);
             p.fill(230, 246, 157);
             p.textAlign(p.LEFT, p.TOP);
             p.text('📆 Best Days of the Week to Fly', offsetX - 10, dayY);
             
-            var dayStartY = dayY + 35;  // Reduced spacing
+            var dayStartY = dayY + 35;
             var dayBoxWidth = 65;
             var dayBoxHeight = 60;
             var dayBoxSpacing = 12;
+            
+            // Calculate centering for 7 columns
+            var dayGridWidth = 7 * (dayBoxWidth + dayBoxSpacing) - dayBoxSpacing;  // 527px
+            var dayStartX = offsetX + (chartWidth - dayGridWidth) / 2;  // Center the grid
             
             var newHoveredDay = -1;
             
             // Draw 1x7 row of weekdays
             for (var j = 0; j < 7; j++) {
                 var day = data.weekdays[j];
-                var x = offsetX + j * (dayBoxWidth + dayBoxSpacing) - 8;
+                var x = dayStartX + j * (dayBoxWidth + dayBoxSpacing);
                 var y = dayStartY;
                 
                 // Check hover
@@ -313,7 +321,12 @@
             p.fill(180);
             p.text('High', legendStartX + legendItemSpacing * 2 + 12, legendItemY + 11);
             
-            // Data source removed for cleaner look
+            // Data source
+            p.textAlign(p.CENTER, p.TOP);
+            p.textSize(10);
+            p.fill(120, 140, 120);
+            p.text('Data sources: KAYAK, Google Flights, Expedia (2022-2025 average)', 
+                   offsetX + chartWidth / 2, legendItemY + 35);
             
             p.pop();
         }
