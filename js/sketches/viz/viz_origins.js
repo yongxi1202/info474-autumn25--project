@@ -12,13 +12,13 @@
                         city: "Seattle", 
                         code: "SEA", 
                         x: 220,  
-                        y: 300   
+                        y: 380   
                     },
                     routes: [
                         { 
                             city: "Portland", code: "PDX",
                             x: 210,  
-                            y: 330,  
+                            y: 400,  
                             totalFlights: 27640,
                             avgFlights: 659, rank: 1,
                             airlines: [
@@ -30,7 +30,7 @@
                         { 
                             city: "Anchorage", code: "ANC",
                             x: 140,  
-                            y: 110,  
+                            y: 135,  
                             totalFlights: 25645,
                             avgFlights: 611, rank: 2,
                             airlines: [
@@ -42,7 +42,7 @@
                         { 
                             city: "Los Angeles", code: "LAX",
                             x: 230,  
-                            y: 430,  
+                            y: 530,  
                             totalFlights: 25472,
                             avgFlights: 607, rank: 3,
                             airlines: [
@@ -53,8 +53,8 @@
                         },
                         { 
                             city: "Phoenix", code: "PHX",
-                            x: 290,  
-                            y: 445,  
+                            x: 285,  
+                            y: 555,  
                             totalFlights: 24199,
                             avgFlights: 577, rank: 4,
                             airlines: [
@@ -65,8 +65,8 @@
                         },
                         { 
                             city: "Spokane", code: "GEG",
-                            x: 250,  
-                            y: 290,  
+                            x: 255,  
+                            y: 380,  
                             totalFlights: 23850,
                             avgFlights: 568, rank: 5,
                             airlines: [
@@ -77,8 +77,8 @@
                         },
                         { 
                             city: "San Francisco", code: "SFO",
-                            x: 205,  
-                            y: 380,  
+                            x: 210,  
+                            y: 480,  
                             totalFlights: 23518,
                             avgFlights: 560, rank: 6,
                             airlines: [
@@ -90,7 +90,7 @@
                         { 
                             city: "Las Vegas", code: "LAS",
                             x: 265,  
-                            y: 425,  
+                            y: 510,  
                             totalFlights: 23082,
                             avgFlights: 550, rank: 7,
                             airlines: [
@@ -102,7 +102,7 @@
                         { 
                             city: "Denver", code: "DEN",
                             x: 340,  
-                            y: 380,  
+                            y: 475,  
                             totalFlights: 22480,
                             avgFlights: 536, rank: 8,
                             airlines: [
@@ -113,8 +113,8 @@
                         },
                         { 
                             city: "Boise", code: "BOI",
-                            x: 270,  
-                            y: 340,  
+                            x: 258,  
+                            y: 420,  
                             totalFlights: 19126,
                             avgFlights: 456, rank: 9,
                             airlines: [
@@ -126,7 +126,7 @@
                         { 
                             city: "Chicago", code: "ORD",
                             x: 450,  
-                            y: 340,  
+                            y: 420,  
                             totalFlights: 17173,
                             avgFlights: 409, rank: 10,
                             airlines: [
