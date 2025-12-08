@@ -18,8 +18,8 @@
             
             p.textFont('Azeret Mono');
             p.fill(200, 220, 228);
-            p.textSize(14);
-            p.textStyle(p.NORMAL);  // 改为BOLD
+            p.textSize(12);
+            p.textStyle(p.BOLD);
             p.text('New York City (NYC) to Seattle (SEA) journey time across three centuries', 
                    left + barWidth / 2, 62);
             

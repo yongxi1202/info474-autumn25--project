@@ -53,7 +53,8 @@
       p.text('When Should You Fly to Seattle?', p.width/2, 42);
       
       p.textFont('Azeret Mono');
-      p.textSize(15);
+      p.textSize(14);
+      p.textStyle(p.BOLD);
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2]);
       p.text('Flight Delay & Cancellation Calendar — Real 2024 Data', p.width/2, 68);
       
