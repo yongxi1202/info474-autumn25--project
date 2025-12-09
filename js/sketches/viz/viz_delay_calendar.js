@@ -21,7 +21,8 @@
     
     MARGIN: 60,
     CIRCLE_SIZE: 11,  
-    CIRCLE_SPACING: 16,
+    BASE_CIRCLE_SPACING: 16, 
+    WEEK_GAP: 6, 
 
     init: function() {
       if (this.loaded) return;
@@ -117,14 +118,13 @@
         let [year, month, day] = dayRecord.date.split('-');
         let dateKey = `${month}-${day}`;
         
-
         let fullDate = new Date(2024, dayRecord.month - 1, parseInt(day));
         let dayOfWeek = fullDate.getDay();
         
         let dayData = {
           month: dayRecord.month,
           day: parseInt(day),
-          dayOfWeek: dayOfWeek,
+          dayOfWeek: dayOfWeek, 
           delayRate: dayRecord['delay_rate_%'],
           cancelRate: dayRecord['cancel_rate_%'],
           avgDelay: dayRecord.avg_delay_min,
@@ -195,34 +195,22 @@
       self.realData = { demo: true };
     },
     
-    drawWeekBackgrounds: function(p, startX, y, daysInMonth, rowHeight) {
-      let weekIndex = 0;
-      let weekStartDay = 0;
-      let currentWeekDays = [];
+   
+    calculateDayXPosition: function(daysInMonth, dayIndex) {
+      let x = 0;
       
-      for (let d = 0; d < daysInMonth.length; d++) {
-        let day = daysInMonth[d];
-        currentWeekDays.push(d);
+      for (let i = 0; i < dayIndex; i++) {
         
-        if (day.dayOfWeek === 0 || d === daysInMonth.length - 1) {
-          
-          if (weekIndex % 2 === 0) {
-            let weekStartX = startX + weekStartDay * this.CIRCLE_SPACING;
-            let weekWidth = currentWeekDays.length * this.CIRCLE_SPACING;
-            
-            p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 45);
-            p.noStroke();
-            
-            p.rect(weekStartX - 8, y - 18, weekWidth, 36, 6);
-          }
-          
-          weekIndex++;
-          weekStartDay = d + 1;
-          currentWeekDays = [];
+        x += this.BASE_CIRCLE_SPACING;
+        
+        let dayNumber = i + 1; 
+        if (dayNumber % 7 === 0) {
+          x += this.WEEK_GAP;
         }
       }
+      
+      return x;
     },
-    
     drawCalendar: function(p) {
       const self = this;
       const months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
@@ -238,38 +226,39 @@
         let month = monthIdx + 1;
         let monthStr = String(month).padStart(2, '0');
         
-        let x = startX;
+        let baseX = startX;
         let y = startY + monthIdx * rowHeight;
+        
+      
+        p.fill(this.PRIMARY_GREEN[0], this.PRIMARY_GREEN[1], this.PRIMARY_GREEN[2]);
+        p.textSize(13);
+        p.textAlign(p.RIGHT, p.CENTER);
+        p.text(months[monthIdx], baseX - 12, y);
         
         let daysInMonth = this.monthlyData[monthStr];
         
         if (daysInMonth && daysInMonth.length > 0) {
-          this.drawWeekBackgrounds(p, x, y, daysInMonth, rowHeight);
-        }
-        
-        p.fill(this.PRIMARY_GREEN[0], this.PRIMARY_GREEN[1], this.PRIMARY_GREEN[2]);
-        p.textSize(13);
-        p.textAlign(p.RIGHT, p.CENTER);
-        p.text(months[monthIdx], x - 12, y);
-        
-        if (daysInMonth && daysInMonth.length > 0) {
+          this.drawWeekSeparatorsForMonth(p, baseX, y, daysInMonth, rowHeight);
+          
           for (let d = 0; d < daysInMonth.length; d++) {
             let dayData = daysInMonth[d];
-            let cx = x + d * this.CIRCLE_SPACING;
+            
+           
+            let cx = baseX + this.calculateDayXPosition(daysInMonth, d);
             let cy = y;
             
-        
+           
             let sizeBoost = p.map(dayData.cancelRate, 0, 5, 0, 4);
             sizeBoost = Math.min(sizeBoost, 4);
             let circleSize = this.CIRCLE_SIZE + sizeBoost;
             
-  
+           
             let color = this.getColorForDelay(dayData.delayRate);
             p.fill(color[0], color[1], color[2]);
             p.noStroke();
             p.circle(cx, cy, circleSize);
             
-    
+           
             if (dayData.holiday) {
               p.fill(255, 200, 0);
               p.textSize(8);
@@ -277,7 +266,7 @@
               p.text('★', cx, cy - circleSize/2 - 5);
             }
             
-    
+           
             if (dayData.cherryBlossom) {
               p.fill(255, 182, 193);
               p.textSize(9);
@@ -286,7 +275,7 @@
               p.text('✿', cx, yOffset);
             }
             
-    
+           
             if (dayData.storm) {
               p.fill(244, 67, 54);
               p.textSize(9);
@@ -295,7 +284,7 @@
               p.text('⚠', cx, yOffset);
             }
             
-   
+          
             let dist = p.dist(p.mouseX, p.mouseY, cx, cy);
             if (dist < circleSize/2 + 6) {
               self.hoveredDay = {
@@ -317,6 +306,25 @@
       }
     },
     
+    drawWeekSeparatorsForMonth: function(p, startX, y, daysInMonth, rowHeight) {
+      p.stroke(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 60); 
+      p.strokeWeight(1.5); 
+      
+      for (let d = 0; d < daysInMonth.length - 1; d++) {
+      
+        let dayNumber = d + 1; 
+        
+        if (dayNumber % 7 === 0) {
+          let currentX = startX + this.calculateDayXPosition(daysInMonth, d);
+          let nextX = startX + this.calculateDayXPosition(daysInMonth, d + 1);
+   
+          let lineX = currentX + (nextX - currentX) / 2;
+          
+          p.line(lineX, y - rowHeight / 2 + 5, lineX, y + rowHeight / 2 - 5);
+        }
+      }
+    },
+
     getColorForDelay: function(delayRate) {
       if (delayRate < 15) return this.EXCELLENT;
       if (delayRate < 20) return this.GOOD;
@@ -333,6 +341,7 @@
       p.text('DELAY LEVEL:', this.MARGIN, y);
       
       let legendX = this.MARGIN + 110;
+      
       
       p.fill(this.EXCELLENT[0], this.EXCELLENT[1], this.EXCELLENT[2]);
       p.circle(legendX, y, 12);
@@ -354,7 +363,7 @@
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 220);
       p.text('Poor (>28%)', legendX + 389, y);
       
-      
+     
       const symbolY = y + 25;
       p.textSize(10);
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 200);
@@ -381,7 +390,7 @@
       p.textSize(10);
       p.text('High Cancellation', this.MARGIN + 350, symbolY);
       
-
+    
       p.textSize(11);
       p.fill(this.TEXT_LIGHT[0], this.TEXT_LIGHT[1], this.TEXT_LIGHT[2], 220);
       p.textAlign(p.LEFT);
@@ -394,12 +403,12 @@
       let tx = hovered.x;
       let ty = hovered.y - 120;
       
-
+     
       if (tx < 190) tx = 190;
       if (tx > p.width - 190) tx = p.width - 190;
       if (ty < 130) ty = hovered.y + 60;
       
-
+    
       p.fill(0, 0, 0, 70);
       p.noStroke();
       p.rect(tx - 183, ty - 53, 370, 125, 8);
@@ -416,17 +425,20 @@
       const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                          'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
       
+      
       p.textSize(15);
       let title = `${monthNames[day.month - 1]} ${day.day}, 2024 (${day.dayName})`;
       if (day.holiday) title += ` — ${day.holiday}`;
       p.text(title, tx - 175, ty - 45);
       
+     
       p.fill(255, 255, 255);
       p.textSize(13);
       p.text(`Delay Rate: ${day.delayRate.toFixed(1)}%  |  Cancel Rate: ${day.cancelRate.toFixed(2)}%`, 
              tx - 175, ty - 20);
       p.text(`Avg Delay: ${day.avgDelay.toFixed(0)} min  |  ${day.numFlights} flights`, 
              tx - 175, ty + 0);
+      
       
       p.textSize(12);
       let rec = '';
@@ -445,6 +457,7 @@
       }
       p.text(rec, tx - 175, ty + 25);
       
+     
       p.textSize(11);
       let warningY = ty + 47;
       
