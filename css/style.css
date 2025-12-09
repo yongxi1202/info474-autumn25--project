@@ -44,6 +44,23 @@ body {
   line-height: 1.2em;
 }
 
+.author {
+  font-size: 15px;
+  margin-top: 15px;
+  /*width: 80%;*/
+}
+
+.author a {
+  color: #7FDA89;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.author a:hover {
+  border-bottom: 1px solid #7FDA89;
+}
+
 #extra-space {
   height: 300px;
 }
