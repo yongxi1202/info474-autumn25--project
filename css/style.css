@@ -148,3 +148,97 @@ body {
   width: 800px;
   text-align: justify;
 }
+
+/* ===== References Section Styles ===== */
+.references-section {
+  background-color: rgba(4, 17, 34, 0.8);
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 8px;
+  width: 800px !important;
+  max-width: 800px;
+}
+
+.references-section .title {
+  color: #7FDA89;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.reference-category {
+  margin-bottom: 30px;
+}
+
+.reference-category h3 {
+  color: #7FDA89;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgba(125, 218, 137, 0.3);
+  padding-bottom: 8px;
+}
+
+.reference-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.reference-list li {
+  color: #C8DCE4;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.reference-list li::before {
+  content: "▸";
+  color: #7FDA89;
+  position: absolute;
+  left: 0;
+}
+
+.reference-list li strong {
+  color: #7FDA89;
+}
+
+.reference-list li a {
+  color: #7FDA89;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.reference-list li a:hover {
+  border-bottom: 1px solid #7FDA89;
+}
+
+.reference-category p {
+  color: #C8DCE4;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.project-info {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid rgba(125, 218, 137, 0.2);
+}
+
+.project-info p {
+  color: #C8DCE4;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 13px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.vis-completely-hidden {
+  display: none !important;
+}

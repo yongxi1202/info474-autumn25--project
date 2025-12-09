@@ -20,6 +20,23 @@
 
         draw: function (p, manager, ai, progress) {
             try { console.log('Renderer: delegating draw, ai=', ai); } catch (e) { }
+            
+            let visContainer = document.getElementById('vis');
+            if (ai >= 12) {
+                if (visContainer) {
+                    visContainer.style.display = 'none';
+                    visContainer.classList.add('vis-completely-hidden');
+                    visContainer.classList.remove('vis-visible');
+                }
+                p.clear();
+                return;
+            } else {
+                if (visContainer) {
+                    visContainer.style.display = '';
+                    visContainer.classList.remove('vis-completely-hidden');
+                }
+            }
+            
             p.clear();
 
             if (ai === 1 || ai === 2) {
